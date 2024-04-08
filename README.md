@@ -14,6 +14,14 @@ If you have any questions, do not hesitate to ask Dr. LaBella or Dr. Dineen.
 &nbsp;
 &nbsp;
 
+# Lab Introduction
+
+The LaBella Lab has a **Welcome to the Lab** site where you can find all the resources necessary for the lab: https://github.com/The-Lab-LaBella/Welcome_to_the_Lab
+
+We also have a robust **Lab Handbook** in which you can find all the of the relevent information about expectations in the lab. 
+
+
+
 # Scientific Background
 
 ## The Y1000+ project
