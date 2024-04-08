@@ -59,7 +59,11 @@ To work in the lab you **must complete biosafety training**. Specifically the **
 
 You will also need to review our specific biosafety protocol located in the google drive. 
 
-Here are some very basic rules and regulation for our lab
+## Essential Biosafety Rules
+
+Here we will outline some of the most essential biosafety rules. If we observe you violating any of these rules, your access to the lab will be immediately suspended. 
+- 
+
 
 
 # Basic Lab Skills
