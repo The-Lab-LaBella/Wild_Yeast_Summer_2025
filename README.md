@@ -20,6 +20,9 @@ The LaBella Lab has a **Welcome to the Lab** site where you can find all the res
 
 We also have a robust **Lab Handbook** in which you can find all the of the relevent information about expectations in the lab. https://github.com/The-Lab-LaBella/LaBellaLabHandbook 
 
+&nbsp;
+&nbsp;
+
 
 
 # Scientific Background
@@ -35,14 +38,27 @@ One of our lab's main goals is to connect genotype to phenotype to ecology. For 
 
 This work is possible because we have extensive phenotpyic data for the 1,154 yeast strains. We have information such as binary growth data on lots of carbon and nitrogen substrates. We also have growth curves (see below) for many of the yeasts on diverse carbon substrates. Importantly, we also have data about the temperature at which many of the yeasts grow. This is important because human fungal pathogens must be able to grow at human body temperature (37C). 
 
-While we have this information for many species, there is still a significant amount of missing data in our dataset. One of the primary 
+While we have this information for many species, there is still a significant amount of missing data in our dataset. One of the primary goals of this summer is to fill in many of the gaps we have in our dataset. This will enable even more robust analysis of this incredible dataset. 
 
-## Yeast
+## Yeasts
 
+Yeasts are typically defined as single cellular fungi. Across the fungal subphylum, however, there have been multiple transitions to and from single-celled fungi. Therefore, the "yeasts" do not form a single group. When we use the word "yeast" we are referring specifically to the yeast of the Saccharomycotina subphylum. 
+
+In our gooogle drive please read the "Who are the yeasts" PDF to learn more about who the yeasts are and why they are so cool. 
+
+&nbsp;
+&nbsp;
 
 # Biosafety
 
-# Biosafety Training 
+Our lab is registerd as a Bio-Safety Level 2 lab. This means that we are able to grow organisms, like _Candida albicans_ which can possibly infect people. If you are at an increased risk of infection we can increase your PPE protective equipment or find alternative experiments. 
+
+To work in the lab you **must complete biosafety training**. Specifically the **Laboratory Personnel BSS** training. Instructions for how to take this course can be found here: https://research.charlotte.edu/departments/office-research-protections-and-integrity-orpi/biosafety/biosafety-training-information/
+
+You will also need to review our specific biosafety protocol located in the google drive. 
+
+Here are some very basic rules and regulation for our lab
+
 
 # Basic Lab Skills
 
