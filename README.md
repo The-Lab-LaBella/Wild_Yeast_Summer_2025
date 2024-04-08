@@ -33,14 +33,22 @@ Please read the manuscript, which is linked here:
 
 One of our lab's main goals is to connect genotype to phenotype to ecology. For example, we have previously used codon optimization as a proxy for gene expression to identify a link between _GAL_-actose metabolism gene codon optimization (genome), growth rate on galactose (phenotype), and dairy environments (ecology.) Read more here: 
 
-This work is possible because we have extensive phenotpyic data for the 1,154 yeast strains 
+This work is possible because we have extensive phenotpyic data for the 1,154 yeast strains. We have information such as binary growth data on lots of carbon and nitrogen substrates. We also have growth curves (see below) for many of the yeasts on diverse carbon substrates. Importantly, we also have data about the temperature at which many of the yeasts grow. This is important because human fungal pathogens must be able to grow at human body temperature (37C). 
+
+While we have this information for many species, there is still a significant amount of missing data in our dataset. One of the primary 
+
+## Yeast
 
 
 # Biosafety
 
 # Biosafety Training 
 
-# Summer Project I 
+# Basic Lab Skills
 
-# Summer Project II 
+# Summer Project I - Growth Data
+
+# Summer Project II - Temperature Growth
+
+# Summer Project III - RNA-sequencing
 
