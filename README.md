@@ -9,6 +9,8 @@ This summer, the LaBella lab has multiple trainees working in the lab. This outl
 
 You **must read this thoroughly**! It contains important safety information. 
 
+You will **fill out your progress** on the google sheet. Each step must be signed off by Dr. LaBella or Dr. Dineen. 
+
 If you have any questions, do not hesitate to ask Dr. LaBella or Dr. Dineen. 
 
 &nbsp;
