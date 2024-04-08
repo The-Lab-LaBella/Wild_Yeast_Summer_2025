@@ -18,7 +18,7 @@ If you have any questions, do not hesitate to ask Dr. LaBella or Dr. Dineen.
 
 The LaBella Lab has a **Welcome to the Lab** site where you can find all the resources necessary for the lab: https://github.com/The-Lab-LaBella/Welcome_to_the_Lab
 
-We also have a robust **Lab Handbook** in which you can find all the of the relevent information about expectations in the lab. 
+We also have a robust **Lab Handbook** in which you can find all the of the relevent information about expectations in the lab. https://github.com/The-Lab-LaBella/LaBellaLabHandbook 
 
 
 
@@ -33,7 +33,7 @@ Please read the manuscript, which is linked here:
 
 One of our lab's main goals is to connect genotype to phenotype to ecology. For example, we have previously used codon optimization as a proxy for gene expression to identify a link between _GAL_-actose metabolism gene codon optimization (genome), growth rate on galactose (phenotype), and dairy environments (ecology.) Read more here: 
 
-
+This work is possible because we have extensive phenotpyic data for the 1,154 yeast strains 
 
 
 # Biosafety
