@@ -62,11 +62,27 @@ You will also need to review our specific biosafety protocol located in the goog
 ## Essential Biosafety Rules
 
 Here we will outline some of the most essential biosafety rules. If we observe you violating any of these rules, your access to the lab will be immediately suspended. 
-- 
 
+- Do not enter the lab unsupervised. Exceptions must be approved by Dr. LaBella or Dr. Dineen
+- No eating or drinking is allowed in the lab
+- Do not wear lab coats, gloves, or any other protective equipment outside of the lab
+- Use protective equipment (PPE) where required
+- Follow all of the guidelines in the lab and institution biosafety, laboratory biosafety and enviornmental health and safety (EHS) protocols
 
+&nbsp;
+&nbsp;
 
 # Basic Lab Skills
+
+## Pipetting, Weighing, and other basics
+
+## Autoclaving
+
+## Preparation of Media
+
+## Growth Curves
+
+
 
 # Summer Project I - Growth Data
 
