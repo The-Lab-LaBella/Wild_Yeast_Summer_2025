@@ -74,15 +74,20 @@ Here we will outline some of the most essential biosafety rules. If we observe y
 
 # Basic Lab Skills
 
-## Pipetting, Weighing, and other basics
+## Pipetting, Weighing, and other basics (Video)
 
-## Autoclaving
+## Autoclaving (SOP & Hands-on)
 
-## Preparation of Media
+## Aseptic Technique (Video & SOP)
 
-## Growth Curves
+## Yeast Culturing (Video & SOP & Hands-on)
 
+## OD & Growth (Video)
 
+## Microscope (Hands-on)
+
+&nbsp;
+&nbsp;
 
 # Summer Project I - Growth Data
 
