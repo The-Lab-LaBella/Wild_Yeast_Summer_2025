@@ -76,11 +76,47 @@ Here we will outline some of the most essential biosafety rules. If we observe y
 
 ## Pipetting, Weighing, and other basics (Video)
 
+&nbsp;
+
+### Pipetting
+
+Review how to use a micro-pipette: https://www.youtube.com/watch?v=Jfqafjt4q6U
+
+&nbsp;
+
+### Weighing 
+
+Basic Weighing: https://www.youtube.com/watch?v=0UymyTJATLc&list=PLrAEgIY86I6wYIgx3iE-KvyaRFzwuuixr&index=5 
+
+Eliminate static while weighing: https://www.youtube.com/watch?v=A5MfyXgr98U
+
+Review how to weigh small amounts: https://www.youtube.com/watch?v=7xRwsJCepEE
+
+&nbsp;
+
+### Centrifuge safety 
+
+How to use a centrifuge: https://www.youtube.com/watch?v=IhJNFGfsUus 
+
+&nbsp;
+
+### Using a pH Meter
+
+pH meter basics: https://www.youtube.com/watch?v=vwY-xWMam7o&list=PLrAEgIY86I6wYIgx3iE-KvyaRFzwuuixr&index=7
+
+
+&nbsp;
+&nbsp;
+
 ## Autoclaving (SOP & Hands-on)
 
 ## Aseptic Technique (Video & SOP)
 
 ## Yeast Culturing (Video & SOP & Hands-on)
+
+### Making Media
+
+Introduction to making media: https://www.youtube.com/watch?v=BH4ESgWU_Eo&list=PLrAEgIY86I6wYIgx3iE-KvyaRFzwuuixr&index=10
 
 ## OD & Growth (Video)
 
