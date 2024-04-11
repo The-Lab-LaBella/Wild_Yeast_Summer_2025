@@ -74,6 +74,7 @@ Here we will outline some of the most essential biosafety rules. If we observe y
 
 # Basic Lab Skills
 
+&nbsp;
 ## Pipetting, Weighing, and other basics (Video)
 
 &nbsp;
@@ -81,8 +82,6 @@ Here we will outline some of the most essential biosafety rules. If we observe y
 ### Pipetting
 
 Review how to use a micro-pipette: https://www.youtube.com/watch?v=Jfqafjt4q6U
-
-&nbsp;
 
 ### Weighing 
 
@@ -92,13 +91,9 @@ Eliminate static while weighing: https://www.youtube.com/watch?v=A5MfyXgr98U
 
 Review how to weigh small amounts: https://www.youtube.com/watch?v=7xRwsJCepEE
 
-&nbsp;
-
 ### Centrifuge safety 
 
 How to use a centrifuge: https://www.youtube.com/watch?v=IhJNFGfsUus 
-
-&nbsp;
 
 ### Using a pH Meter
 
@@ -110,7 +105,19 @@ pH meter basics: https://www.youtube.com/watch?v=vwY-xWMam7o&list=PLrAEgIY86I6wY
 
 ## Autoclaving (SOP & Hands-on)
 
+Autoclaves **are dangerous** and can be used only by individuals trained in their use. 
+
+To use the autoclave in our lab you must read and sign off on our SOP and review the safety materials here. 
+
+Review Autoclave Safety: https://www.youtube.com/watch?v=T901F2W7wks
+
+
+
+
+
 ## Aseptic Technique (Video & SOP)
+
+## Biohazard disposal (Video & SOP)
 
 ## Yeast Culturing (Video & SOP & Hands-on)
 
