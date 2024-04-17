@@ -137,6 +137,10 @@ https://www.youtube.com/watch?v=YCuqwMupThA
 
 The yeasts that we are culturing must be disposed of properly. This means that the yeast must be killed before they can be placed in a normal waste stream or they must be disposed of in a biohazard. 
 
+Watch this video on waste disposal: https://www.youtube.com/watch?v=OXqcGc_1794
+
+**NOTE** protocols in this video are general and may be superceded by 
+
 ## Yeast Culturing (Video & SOP & Hands-on)
 
 ### Making Media
