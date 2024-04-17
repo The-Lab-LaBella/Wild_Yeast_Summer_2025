@@ -74,7 +74,6 @@ Here we will outline some of the most essential biosafety rules. If we observe y
 
 # Basic Lab Skills
 
-&nbsp;
 ## Pipetting, Weighing, and other basics (Video)
 
 &nbsp;
@@ -99,7 +98,6 @@ How to use a centrifuge: https://www.youtube.com/watch?v=IhJNFGfsUus
 
 pH meter basics: https://www.youtube.com/watch?v=vwY-xWMam7o&list=PLrAEgIY86I6wYIgx3iE-KvyaRFzwuuixr&index=7
 
-
 &nbsp;
 &nbsp;
 
@@ -118,7 +116,26 @@ Once you have reviewed the autoclave safety please arrange to meet with Dr. Dine
 
 ## Aseptic Technique (Video & SOP)
 
-## Biohazard disposal (Video & SOP)
+In the lab we are typically trying to prevent contamination of our samples and prevent contamination of ourselves from the organisms we study. 
+
+There are different types of contamination that we need to think about. 
+
+### Preventing Microbial Contamination
+
+
+
+### Preventing RNase Contamination
+
+There are enzymes all around that can degrade or destroy the RNA that we are trying to work with. These enzymes are called RNases. Watch this video about how to prevent RNase Contamination
+
+https://www.youtube.com/watch?v=YCuqwMupThA 
+
+&nbsp;
+&nbsp;
+
+## Biohazard and other waste disposal (Video & SOP)
+
+The yeasts that we are culturing must be disposed of properly. This means that the yeast must be killed before they can be placed in a normal waste stream or they must be disposed of in a biohazard. 
 
 ## Yeast Culturing (Video & SOP & Hands-on)
 
