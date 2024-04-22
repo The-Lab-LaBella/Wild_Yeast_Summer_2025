@@ -36,6 +36,8 @@ In 2024, Dr. LaBella and her colleagues in the Y000+ collaborative published a p
 
 Please read the manuscript, which is linked here: 
 
+- [ ] Y1000+ project manuscript
+
 ## Lab LaBella work 
 
 One of our lab's main goals is to connect genotype to phenotype to ecology. For example, we have previously used codon optimization as a proxy for gene expression to identify a link between _GAL_-actose metabolism gene codon optimization (genome), growth rate on galactose (phenotype), and dairy environments (ecology.) Read more here: 
@@ -50,6 +52,8 @@ Yeasts are typically defined as single cellular fungi. Across the fungal subphyl
 
 In our gooogle drive please read the "Who are the yeasts" PDF to learn more about who the yeasts are and why they are so cool. 
 
+- [ ] Who are the yeasts?
+
 &nbsp;
 &nbsp;
 
@@ -59,7 +63,11 @@ Our lab is registered as a Bio-Safety Level 2 lab. This means that we are able t
 
 To work in the lab you **must complete biosafety training**. Specifically the **Laboratory Personnel BSS** training. Instructions for how to take this course can be found here: https://research.charlotte.edu/departments/office-research-protections-and-integrity-orpi/biosafety/biosafety-training-information/
 
+- [ ] Completed the Laboratory Personnel BSS Training
+
 You will also need to review our specific biosafety protocol located on Google Drive. 
+
+- [ ] Review and sign the laboratory biosafety protocol
 
 ## Essential Biosafety Rules
 
