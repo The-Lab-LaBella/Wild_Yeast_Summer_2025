@@ -9,7 +9,7 @@ This summer, the LaBella lab has multiple trainees working in the lab. This outl
 
 You **must read this thoroughly**! It contains important safety information. 
 
-You will **fill out your progress** on the google survey here: https://forms.gle/jR62L1rkjACeoGZe9
+You will **fill out your progress** on the google survey here: https://forms.gle/jR62L1rkjACeoGZe9 . Each time you see an empty checkmark - fill in the google form. 
 
 You must also physically sign some of our SOPs. 
 
