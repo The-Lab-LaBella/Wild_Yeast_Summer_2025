@@ -64,7 +64,7 @@ To work in the lab you **must complete biosafety training**. Specifically the **
 
 - [ ] Completed the Laboratory Personnel BSS Training
 
-You will also need to review our specific biosafety protocol located on Google Drive. 
+You will also need to review our specific biosafety protocol located on Google Drive. Link: https://drive.google.com/file/d/1kZKfBEeVSiTNbXMYxc7CZZ0bgad2wRc7/view?usp=drive_link 
 
 - [ ] Review and sign the laboratory biosafety protocol
 
