@@ -1,8 +1,5 @@
 # Summer_2024
 
-# Outline 
-
-
 # Introduction
 
 This summer, the LaBella lab has multiple trainees working in the lab. This outlines all the necessary background information and additional details you will need to get working this summer. 
@@ -59,7 +56,7 @@ In our gooogle drive please read the "Who are the yeasts" PDF to learn more abou
 &nbsp;
 &nbsp;
 
-# Biosafety
+# Biosafety training
 
 Our lab is registered as a Bio-Safety Level 2 lab. This means that we are able to grow organisms, like _Candida albicans_ which can possibly infect people. If you are at an increased risk of infection we can increase your PPE protective equipment or find alternative experiments. 
 
@@ -83,6 +80,15 @@ Here we will outline some of the most essential biosafety rules. If we observe y
 
 &nbsp;
 &nbsp;
+
+# LaBella Lab Environmental Health & Safety Manual 
+
+You must review and then sign a physical copy of our laboratory EHS manual. A copy can be found here: https://drive.google.com/file/d/17Q_9g7UkfkQCxjsH2HckuvDxuQMfjhIr/view?usp=drive_link 
+
+- [ ] Review and sign the laboratory EHS manual
+
+&nbsp;
+&nbsp; 
 
 # Basic Lab Skills
 
@@ -183,12 +189,28 @@ Watch this video about the science behind OD: https://www.youtube.com/watch?v=Eu
 
 ## Microscope (Hands-on)
 
+Review the Rebel Echo functions: https://www.youtube.com/watch?v=XIdmQTPuzGM 
+
+&nbsp;
+&nbsp;
+
+## Hemocytometer (Video)
+
+One of our main goals will be to count how many cells are in a specific amount of our sample. To do this we will use a Hemocytometer.
+Review how to use a heomyctometer here: https://www.youtube.com/watch?v=WWS9sZbGj6A
+
 &nbsp;
 &nbsp;
 
 # Summer Project I - Growth Data
 
+_TBD_
+
 # Summer Project II - Temperature Growth
 
+_TBD_
+
 # Summer Project III - RNA-sequencing
+
+_TBD_
 
