@@ -11,6 +11,8 @@ You **must read this thoroughly**! It contains important safety information.
 
 You will **fill out your progress** on the google survey here: https://forms.gle/jR62L1rkjACeoGZe9 . Each time you see an empty checkmark - fill in the google form. 
 
+You will find files and information you need in this google drive folder. Please request access: https://drive.google.com/drive/folders/1OxxfREeDg1Jewk8ZV_66pgeOZCf8-qST?usp=sharing 
+
 You must also physically sign some of our SOPs. 
 
 If you have any questions, do not hesitate to ask Dr. LaBella or Dr. Dineen. 
