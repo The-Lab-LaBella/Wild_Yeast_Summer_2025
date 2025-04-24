@@ -6,7 +6,7 @@
 
 [Biosafety Training](#Biosafety-training)
 
-[Summer 2025 Schedule](#-Timeline-Summer-2025)
+[Summer 2025 Schedule](#Timeline-Summer-2025)
 
 # Introduction
 
