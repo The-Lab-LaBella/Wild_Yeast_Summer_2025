@@ -6,6 +6,8 @@
 
 [Biosafety Training](#Biosafety-training)
 
+[Summer 2025 Schedule](#-Timeline---Summer-2025)
+
 # Introduction
 
 This summer, you will paricipate in the first wild yeast collection at UNC Charlotte. 
