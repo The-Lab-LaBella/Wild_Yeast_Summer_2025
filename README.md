@@ -1,4 +1,4 @@
-# WILd YEAST PROJECT
+# WILD YEAST PROJECT
 
 # Introduction
 
