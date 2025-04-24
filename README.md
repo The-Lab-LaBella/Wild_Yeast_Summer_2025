@@ -1,5 +1,11 @@
 # WILD YEAST PROJECT
 
+[Introduction](#Introduction)
+
+[Scientific Background](#Scientific-Background)
+
+[Biosafety Training](#Biosafety-training)
+
 # Introduction
 
 This summer, you will paricipate in the first wild yeast collection at UNC Charlotte. 
@@ -11,7 +17,6 @@ This is a collaborative effort between the LaBella, Carter, and Yohe labs. Pleas
 &nbsp;
 &nbsp;
 
-
 # Scientific Background
 
 ## The Y1000+ project
@@ -20,6 +25,9 @@ In 2024, Dr. LaBella and her colleagues in the Y000+ collaborative published a p
 This work sequenced the genomes of 1,154 yeasts - most of which are type strains found in repositories where yeast are stored. These genomes, however, do not capture the natural variation of yeasts in the environment around us. 
 
 This project will expand our genomic dataset to include yeasts sampled here at UNC Charlotte.
+
+&nbsp;
+&nbsp;
 
 ## Yeasts
 
@@ -38,7 +46,6 @@ To work in the lab you **must complete biosafety training**. Specifically the **
 
 You will also need to review our specific biosafety protocol located on Google Drive. Link: https://drive.google.com/file/d/1kZKfBEeVSiTNbXMYxc7CZZ0bgad2wRc7/view?usp=drive_link 
 
-
 ## Essential Biosafety Rules
 
 Here we will outline some of the most essential biosafety rules. If we observe you violating any of these rules, your access to the lab will be immediately suspended. 
@@ -52,31 +59,33 @@ Here we will outline some of the most essential biosafety rules. If we observe y
 &nbsp;
 &nbsp;
 
-# LaBella Lab Environmental Health & Safety Manual 
+## LaBella Lab Environmental Health & Safety Manual 
 
 You must review and then sign a physical copy of our laboratory EHS manual. A copy can be found here: https://drive.google.com/file/d/17Q_9g7UkfkQCxjsH2HckuvDxuQMfjhIr/view?usp=drive_link 
 
 &nbsp;
 &nbsp; 
 
-# Review Basic Lab techniques
+## Review Basic Lab techniques
 
 See this link to review basic lab techniques: https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/lab_basics.md
 
+&nbsp;
+&nbsp;
 
 # Timeline - Summer 2025
 
 The LaBella and Yohe labs will conduct the wetlab work at the NCRC on Wednesdays. The Carter lab will parallel the experiment at UNC Charlotte
 
-May 21st - Biosafety Introduction for NCRC trainees
-May 28th - Sample Collection (Main Campus) and Processing (NCRC)
-June 4th - Sample Passaging
-June 11th - Dilute & Plate 
-June 18th - Streak out
-_June 25th - Evolution Conference_
-July 2nd - DNA Extraction
-July 9th - DNA Extraction 
-July 16th - Genome Assembly Tutorial
-_July 23rd - Dr. LaBella out of town_
-July 30th - Genome Assembly
+* May 21st - Biosafety Introduction for NCRC trainees
+* May 28th - Sample Collection (Main Campus) and Processing (NCRC)
+* June 4th - Sample Passaging
+* June 11th - Dilute & Plate 
+* June 18th - Streak out
+* _June 25th - Evolution Conference_
+* July 2nd - DNA Extraction
+* July 9th - DNA Extraction 
+* July 16th - Genome Assembly Tutorial
+* _July 23rd - Dr. LaBella out of town_
+* July 30th - Genome Assembly
 
