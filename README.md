@@ -85,7 +85,7 @@ The LaBella and Yohe labs will conduct the wetlab work at the NCRC on Wednesdays
 * June 11th - Dilute & Plate 
 * June 18th - Streak out
 * _June 25th - Evolution Conference_
-* July 2nd - DNA Extraction
+* July 2nd - Growth Experiment
 * July 9th - DNA Extraction 
 * July 16th - Genome Assembly Tutorial
 * _July 23rd - Dr. LaBella out of town_
