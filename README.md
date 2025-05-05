@@ -80,7 +80,7 @@ See this link to review basic lab techniques: https://github.com/The-Lab-LaBella
 The LaBella and Yohe labs will conduct the wetlab work at the NCRC on Wednesdays. The Carter lab will parallel the experiment at UNC Charlotte
 
 * May 21st - Biosafety Introduction for NCRC trainees
-* May 28th - Sample Collection (Main Campus) and Processing (NCRC)
+* May 28th - Sample Collection and Processing (Main Campus) 
 * June 4th - Sample Passaging
 * June 11th - Dilute & Plate 
 * June 18th - Streak out
