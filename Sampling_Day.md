@@ -44,7 +44,6 @@ Required Items:
 -	One 15mL tube per sample + 1 negative control tubes
 -	9mL Wild Yeast media per tube
 -	scoopula/tweezers
--	First Enrichment Media Worksheet
 
 1.	Record sample information in lab notebook - Sample #, Substrate, Processed date
 2.	Label 15mL tubes:
