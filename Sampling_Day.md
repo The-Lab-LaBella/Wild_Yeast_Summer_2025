@@ -4,7 +4,7 @@
 
 [Step 1- Sample Collection](#step-1---sample-collecting)
 
-[Step 2 - Sample Processing] (#step-2---processing)
+[Step 2 - Sample Processing](#step-2---processing)
 
 ## Meet-up Instructions
 
