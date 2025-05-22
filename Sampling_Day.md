@@ -8,13 +8,13 @@
 
 ## Meet-up Instructions
 
-**When: **May 28th at 9am 
+**When:** May 28th at 9am 
 
-**Where: **Main Entrance to the Botanical Gardens on Mary Alexander Road Entrance (9221 Mary Alexander Rd)
+**Where:** Main Entrance to the Botanical Gardens on Mary Alexander Road Entrance (9221 Mary Alexander Rd)
 
 ![image](https://github.com/user-attachments/assets/190d6262-69a6-415a-a0ae-c1dd1055048b)
 
-**Parking information: **https://gardens.charlotte.edu/visiting-the-gardens/directions-and-parking/ 
+**Parking information:** https://gardens.charlotte.edu/visiting-the-gardens/directions-and-parking/ 
 
 
 ## Step 1 - Sample Collecting
@@ -30,6 +30,9 @@ Required Items:
 3.	Collect 1 additional sample with the spoon or with the glove (without touching the sample with your bare hands)
 4.	Record sampling information on the Sample Collection Worksheet and tube/bag
 
+_Note: If you have trouble getting your GPS location see these instructions_
+[Android Instructions](https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/Find-coordinates-Android.pdf)
+[Apple Instructions](https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/Find-coordinates-iPhone.pdf)
 
 ## Step 2 - Processing
 Required Items:
