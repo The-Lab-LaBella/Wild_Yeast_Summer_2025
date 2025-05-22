@@ -36,7 +36,9 @@ _Note: If you have trouble getting your GPS location see these instructions_
 
 ## Step 2 - Processing
 
-Processing will take place on the 4th Floor of the [Bioinformatics Building](https://g.co/kgs/KCyVCYW) 
+Processing will take place on the 4th Floor of the [Bioinformatics Building](https://g.co/kgs/KCyVCYW) in the Carter Lab 
+
+If you get lost, please return to BINF 429 and connect with Bhuwan or Dallas 
 
 Required Items:
 -	One 15mL tube per sample + 1 negative control tubes
