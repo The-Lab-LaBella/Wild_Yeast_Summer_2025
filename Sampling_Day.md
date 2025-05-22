@@ -25,7 +25,7 @@ Required Items:
 -	1 sterile bag or tube per collected sample (bring a surplus to be safe) 
 -	A sharpie/pen
 -	spoon/glove
--	Sample Collection Worksheet
+-	[Sample Collection Worksheet](https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/2025_Wild_Yeast_Collection.pdf)
 -	100% Ethanol
 
 1.	Collect ~1 Tablespoon of substrate in sterile bag or tube (without touching the sample with your hands) 
