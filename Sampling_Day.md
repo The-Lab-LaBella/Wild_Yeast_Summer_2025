@@ -35,6 +35,9 @@ _Note: If you have trouble getting your GPS location see these instructions_
 [Apple Instructions](https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/Find-coordinates-iPhone.pdf)
 
 ## Step 2 - Processing
+
+Processing will take place on the 4th Floor of the [Bioinformatics Building](https://g.co/kgs/KCyVCYW) 
+
 Required Items:
 -	One 15mL tube per sample + 1 negative control tubes
 -	9mL Wild Yeast media per tube
