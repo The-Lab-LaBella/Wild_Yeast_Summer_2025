@@ -4,13 +4,17 @@
 
 [Step 1- Sample Collection](#step-1---sample-collecting)
 
+[Step 2 - Sample Processing] (#step-2---processing)
+
 ## Meet-up Instructions
-When: May 28th at 9am 
-Where: Main Entrance to the Botanical Gardens on Mary Alexander Road Entrance (9221 Mary Alexander Rd)
+
+**When: **May 28th at 9am 
+
+**Where: **Main Entrance to the Botanical Gardens on Mary Alexander Road Entrance (9221 Mary Alexander Rd)
 
 ![image](https://github.com/user-attachments/assets/190d6262-69a6-415a-a0ae-c1dd1055048b)
 
-Parking information: https://gardens.charlotte.edu/visiting-the-gardens/directions-and-parking/ 
+**Parking information: **https://gardens.charlotte.edu/visiting-the-gardens/directions-and-parking/ 
 
 
 ## Step 1 - Sample Collecting
