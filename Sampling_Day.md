@@ -1,5 +1,10 @@
 # Sampling Day
 
+[Meet-up Instructions](#meet-up-instructions)
+
+[Step 1- Sample Collection](#step-1---sample-collecting)
+
+## Meet-up Instructions
 When: May 28th at 9am 
 Where: Main Entrance to the Botanical Gardens on Mary Alexander Road Entrance (9221 Mary Alexander Rd)
 
