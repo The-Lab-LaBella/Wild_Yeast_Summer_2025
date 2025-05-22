@@ -19,7 +19,7 @@
 
 ## Step 1 - Sample Collecting
 
-Each person will collect 1 soil/dirt sample and 1 sample from another substrate. This second substrate can be anything you choose. Good options are insects, flowers, bark, or fruits/berries.
+Each person will collect 1 soil/dirt sample and 1 sample from another substrate. This second substrate can be anything you choose. Good options are insects, flowers, bark, or fruits/berries. The sample should be small enough to fit in the tube (approximately the size of a quarter). 
 
 Required Items:
 -	1 sterile bag or tube per collected sample (bring a surplus to be safe) 
