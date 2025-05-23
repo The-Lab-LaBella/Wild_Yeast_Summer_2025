@@ -28,6 +28,10 @@ Required Items:
 -	[Sample Collection Worksheet](https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/2025_Wild_Yeast_Collection.pdf)
 -	100% Ethanol
 
+All of these items are in the Sampling Kit you wll get at the start of the sampling day 
+![image](https://github.com/user-attachments/assets/33f66d7f-8e0e-4f6f-9cae-b84faf4be247)
+
+
 1.	Collect ~1 Tablespoon of substrate in sterile bag or tube (without touching the sample with your hands) 
 2.	Record sampling information on the Sample Collection Worksheet and tube/bag
 3.	Collect 1 additional sample with the spoon or with the glove (without touching the sample with your bare hands)
