@@ -1,19 +1,45 @@
-Sample Passaging - Week 3, June 4th 
+# Sample Passaging - Week 3, June 4th 
 
 This week we will be taking a subsample of your culture and starting a clean culture. 
 
-You will also be tasked with making your own media.
+You will also be tasked with _making your own media_.
 
 You will need to copy these instructions into your lab notebook! 
 
-Required Items:
--	One sterile 5mL tube per sample/control
--	4mL Wild Yeast media per tube
--	Second Enrichment Worksheet
+**Required Items:**
+- One sterile 5mL tube per sample/control
+- 4mL Wild Yeast media per tube
+-	Enrichment Calculation
 
-1.	Label 5mL tubes with information from your previous enrichment step (Step 2 above).
+## Enrichment Calcuation
+
+A)	# of sample: ______________
+B)	Controls: _______________
+
+Total (add A + B): _________________
+Total Volume (4mL x Total): ___________________
+
+
+Wild Yeast Media (multiply volumes by Total Volume) 				Final Volume
+0.4mL	10X Synthetic Complete Base					                  __________	
+0.4mL	20% Glucose Stock							                        __________
+3.2mL	Sterile miliQ water							                      __________
+4μL		1000X Stock Ampicillin						                    __________
+4μL		1000X Stock Chloramphenicol)					                __________
+
+Date: _____________________________
+
+
+## Make Media
+
+1. Label a 15ml conical tube with your initials, the date, and the type of media
+2. Add the Wild Yeast Media ingredients and mix
+
+## Passage your sample
+
+1.	Label 5mL tubes with your sample ID
 2.	Add 4mL of Wild Yeast Media to labeled tubes
 3.	Vortex passaged sample tubes
 4.	Add 10μL of liquid from the processed sample into corresponding labeled 5mL tube
 5.	Place at room temperature
-6.	Watch for signs of growth - bubbles and white/whitish sediment
+6.	Watch for signs of growth - bubbles and white/whitish sediment and note in your lab notebook
