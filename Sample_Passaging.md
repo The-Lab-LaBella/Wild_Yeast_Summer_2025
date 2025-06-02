@@ -6,6 +6,10 @@ You will also be tasked with _making your own media_.
 
 You will need to copy these instructions into your lab notebook! 
 
+Please also record all your sample information from the spreadsheet into your notebook
+Sampling spreadsheet: https://docs.google.com/spreadsheets/d/1ffE8ATns7qqsi8uuAoZCwL8xjG1ZoAfrWgVBjguTmHI/edit?usp=sharing 
+
+
 **Required Items:**
 - One sterile 5mL tube per sample/control
 - 4mL Wild Yeast media per tube
@@ -14,18 +18,23 @@ You will need to copy these instructions into your lab notebook!
 ## Enrichment Calcuation
 
 A)	# of sample: ______________
+
 B)	Controls: _______________
 
+
 Total (add A + B): _________________
+
 Total Volume (4mL x Total): ___________________
 
 
-Wild Yeast Media (multiply volumes by Total Volume) 				Final Volume
-0.4mL	10X Synthetic Complete Base					                  __________	
-0.4mL	20% Glucose Stock							                        __________
-3.2mL	Sterile miliQ water							                      __________
-4μL		1000X Stock Ampicillin						                    __________
-4μL		1000X Stock Chloramphenicol)					                __________
+|Wild Yeast Media (multiply volumes by Total Volume) | Final Volume |
+|----------------------------------------------------|--------------|
+|0.4mL	10X Synthetic Complete Base |  |
+|0.4mL	20% Glucose Stock |  |
+|3.2mL	Sterile miliQ water |  |
+|4μL		1000X Stock Ampicillin |  |
+|4μL		1000X Stock Chloramphenicol) |  |
+
 
 Date: _____________________________
 
