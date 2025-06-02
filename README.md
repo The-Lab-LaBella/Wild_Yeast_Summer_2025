@@ -81,7 +81,7 @@ The LaBella and Yohe labs will conduct the wetlab work at the NCRC on Wednesdays
 
 * May 21st - Biosafety Introduction for NCRC trainees
 * May 28th - [Sample Collection and Processing (Main Campus)](https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/Sampling_Day.md)
-* June 4th - Sample Passaging
+* June 4th - [Sample Passaging](https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/Sample_Passaging.md)
 * June 11th - Dilute & Plate 
 * June 18th - Streak out
 * _June 25th - Evolution Conference_
