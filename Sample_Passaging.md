@@ -28,7 +28,7 @@ Total (add A + B): _________________
 Total Volume (4mL x Total): ___________________
 
 
-|Wild Yeast Media (multiply volumes by Total Volume) | Final Volume |
+|Wild Yeast Media (multiply volumes by Total # samples) | Final Volume |
 |----------------------------------------------------|--------------|
 |0.4mL	10X Synthetic Complete Base |  |
 |0.4mL	20% Glucose Stock |  |
