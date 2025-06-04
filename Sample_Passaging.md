@@ -12,6 +12,7 @@ Sampling spreadsheet: https://docs.google.com/spreadsheets/d/1ffE8ATns7qqsi8uuAo
 
 **Required Items:**
 - One sterile 5mL tube per sample/control
+- One sterile 50ml tube for media
 - 4mL Wild Yeast media per tube
 -	Enrichment Calculation
 
@@ -41,8 +42,13 @@ Date: _____________________________
 
 ## Make Media
 
-1. Label a 15ml conical tube with your initials, the date, and the type of media
-2. Add the Wild Yeast Media ingredients and mix
+1. Label a 50ml conical tube with your initials, the date, and the type of media
+2. Attach the filter sterilization cup to the conical tube (see picture below)
+3. Add the Wild Yeast Media ingredients to the filter sterilizaton cup
+4. Filter sterilize the media
+
+![image](https://github.com/user-attachments/assets/6f8e81e3-591a-4a1f-8b9e-ee4980893a62)
+
 
 ## Passage your sample
 
