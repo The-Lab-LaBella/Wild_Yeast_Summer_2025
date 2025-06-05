@@ -22,8 +22,9 @@ A)	# of sample: ______________
 
 B)	Controls: _______________
 
+C)  Extra for filter: ____ 1 _____
 
-Total (add A + B): _________________
+Total (add A + B + C): _________________
 
 Total Volume (4mL x Total): ___________________
 
@@ -54,7 +55,7 @@ Date: _____________________________
 
 1.	Label 5mL tubes with your sample ID
 2.	Add 4mL of Wild Yeast Media to labeled tubes
-3.	Vortex passaged sample tubes
+3.	Vortex passaged sample tubes (if there is no vortex in the Biosafety Cabinet, do this before)
 4.	Add 10μL of liquid from the processed sample into corresponding labeled 5mL tube
 5.	Place at room temperature
 6.	Watch for signs of growth - bubbles and white/whitish sediment and note in your lab notebook
