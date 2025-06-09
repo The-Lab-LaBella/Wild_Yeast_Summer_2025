@@ -4,6 +4,8 @@ This week we will be plating your liquid culture onto solid Yeast Peptone Dextro
 
 [Background](#background)
 
+[Record Observations](#record-observations)
+
 [Dilution and Plating](#dilution-and-plating)
 
 ## Background
@@ -45,6 +47,12 @@ The typical makeup of YPD is
 
 ![image](https://github.com/user-attachments/assets/76930634-cf04-4284-9064-d371dd3fc3df)
 from https://oeno-one.eu/article/view/5462
+
+## Record Observations
+
+The first thing you will do in lab today, is record what your two cultures and controls look like. 
+
+Take note of color, bubbles, and any other phenotypes you see. 
 
 ## Dilution and Plating
 
