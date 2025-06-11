@@ -66,15 +66,14 @@ Take note of color, bubbles, and any other phenotypes you see.
 ### Procedure
 
 1.	Label two 1.5mL tubes for serial dilution for each sample. (1:100 and 1:10,000)
-2.	Label one plate per sample with the sample ID
+2.	Label the outer edge of the bottom of one YPD plate per sample with the sample ID 
 3.	Add 990uL sterile H2O to each tube
 4.	Vortex 5mL sample tubes and add 10μL to the first dilution tube. (1:100 dilution) 
 5.	Vortex the first dilution tube and add 10μL to the second dilution tube. (1:10,000 final dilution)
-6.	Label the outer edge of the bottom of YPD plates with tube information.
-7.	Pour ~10-15 sterile glass beads into the lid of the labeled plate. 
-8.	Flip the plate with the lid on and pipette 100μL of vortexed 1:10,000 diluted sample (step 4) onto the glass beads. Replace the lid and spread the sample around the plate by shaking the plate side to side.
-9.	Dispose of the glass beads in the glass waste
-10.	Incubate plates at room temperature. The plate will be checked for growth approximately daily.
+6.	Pour ~10-15 sterile glass beads into the lid of the labeled plate. 
+7.	Flip the plate with the lid on and pipette 100μL of vortexed 1:10,000 diluted sample (step 4) onto the glass beads. Replace the lid and spread the sample around the plate by shaking the plate side to side.
+8.	Dispose of the glass beads in the glass waste
+9.	Incubate plates at room temperature. The plate will be checked for growth approximately daily.
 
 
 
