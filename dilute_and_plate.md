@@ -59,7 +59,7 @@ Take note of color, bubbles, and any other phenotypes you see.
 ### Required Materials
 
 - Two 1.5 ml microcentrifuge tubes per sample
-- Two aliquots of 990 ul sterile H20 per sample
+- Two aliquots of 990 μl sterile H20 per sample
 - One YPD plate per sample
 - Sterile glass beads
 
