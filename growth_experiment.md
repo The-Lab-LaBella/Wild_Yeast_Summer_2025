@@ -37,7 +37,7 @@ We will use **glycerol** as a cryoprotectant. This protects the cells by prevent
 
 - Autoclaved MiliQ water
 - Autoclaved 1.5mL microtubes
-- Shared 96-well plate
+- Shared 96-well plate & assigned wells
 
 **Formula**
 
@@ -52,9 +52,9 @@ therefore
 
 V1 = (C2 x V2) / C1 
 
-Volume of Stock ________ = ( 0.0001 OD600 x 700uL ) / ________ OD600 reading
+Volume of Stock ________μL = ( 0.0001 OD600 x 700μL ) / ________ OD600 reading
 
-Volume of YPD___________ = 700ul - Volume of Stock ________
+Volume of YPD___________μL = 700μL - Volume of Stock ________μL
 
 
 **Protocol**
@@ -62,4 +62,5 @@ Volume of YPD___________ = 700ul - Volume of Stock ________
 2. If you are the first in your group, add 1 mL of YPD liquid culture to the cuvette. Place in the spectrometer and press "ZERO"
 3. Add 1 mL of your sample to a cuvette and place it in the spectrometer to measure OD600.
 4. Record your OD600 measurement in the formula above
-5. Dilute your sample to 0.0001 OD600 by adding ________ uL of sample to _____ uL of YPD to create a 700ul dilution in a 1.5ml microtube
+5. Dilute your sample to 0.0001 OD600 by adding ________ μL of sample to _____ μL of YPD to create a 700μL dilution in a 1.5ml microtube
+6. Add 200 μL of diluted sample to each well assigned
