@@ -28,15 +28,20 @@ You may also have multiple different morphotypes of yeast. A **morphotype** is a
 
 You will streak out one morphotype into each wedge on the plate.
 
-![image](https://github.com/user-attachments/assets/e9cad2df-7d3f-4261-9ab4-6b7f6dfda06d)
+![image](https://github.com/user-attachments/assets/c68822e1-28af-42eb-80ae-b206d65869bc)
+
+
+**TIP** Try to get as many squiggles on the last section as possible. 
+**TIP** Get a new inoculating loop or toothpick for each pass
 
 # Protocol
 
 ### Required Materials 
--	YPD plates (1 plate can accomodate up to 4 morphotypes)
--	Inoculating loop
+-	YPD plates (1 plate can accommodate up to 4 morphotypes)
+-	Inoculating loops
 
-1.	Split YPD plates into 4 wedges, one for each distinct morphotype. Label the plate with sample information on plate and morphotype letter or number.
-2.	Streak the morphotype to its respective wedge on your plate. Use the streaking method with which you are most comfortable. 
-3.	Store upside down at room temperature (unless drippy then store upright)
-4.	Watch for single colony growth.
+1.  Circle the 2-4 yeast colonies you will sample from your original plate and label them with a letter
+2.	Split YPD plates into 4 wedges, one for each distinct morphotype. Label the plate with sample information and each wedge with the morphotype letter.
+3.	Streak the morphotype to its respective wedge on your plate. See the figure above for directions. 
+4.	Store upside down at room temperature. 
+6.	Watch for single colony growth.
