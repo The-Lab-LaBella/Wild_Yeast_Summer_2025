@@ -24,11 +24,12 @@ Take a look at this website to see if you can learn to spot the yeast: https://w
 
 ## Identifying yeast morphotypes
 
-You may also have multiple different morphotypes of yeast. A **morphotype** is a yeast with an observable morphology. You will want to sample 1 of each morphotype you find. 
+You may also have multiple different morphotypes of yeast. A **morphotype** is a yeast with an observable morphology. You will want to sample 1 morphotype from each palte 
 
 You will streak out one morphotype into each wedge on the plate.
 
-![image](https://github.com/user-attachments/assets/c68822e1-28af-42eb-80ae-b206d65869bc)
+![image](https://github.com/user-attachments/assets/f9f28b36-a0e6-4f23-8332-4eb5d31789ca)
+
 
 
 **TIP** Try to get as many squiggles on the last section as possible. 
@@ -37,11 +38,11 @@ You will streak out one morphotype into each wedge on the plate.
 # Protocol
 
 ### Required Materials 
--	YPD plates (1 plate can accommodate up to 4 morphotypes)
+-	YPD plates (2 plates)
 -	Inoculating loops
 
-1.  Circle the 2-4 yeast colonies you will sample from your original plate and label them with a letter
-2.	Split YPD plates into 4 wedges, one for each distinct morphotype. Label the plate with sample information and each wedge with the morphotype letter.
-3.	Streak the morphotype to its respective wedge on your plate. See the figure above for directions. 
+1.  Circle the one yeast colony you will sample from your original plate and label it with a letter
+2.	Label the plate with sample information and the colony letter.
+3.	Streak the morphotype onto the plate. See the figure above for directions. 
 4.	Store upside down at room temperature. 
 6.	Watch for single colony growth.
