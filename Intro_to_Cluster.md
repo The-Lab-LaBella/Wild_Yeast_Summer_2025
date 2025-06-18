@@ -57,7 +57,7 @@ Navigate to the Utilities folder within applications and double-click on the Ter
 
 ![image](https://github.com/user-attachments/assets/6b6ee9f0-b7dd-4fb7-98b2-79e5614892c4)
 
-### Mac Step 2 - Log into cluster
+### Mac Step 2 - Log into the cluster
 
 Once the terminal is open, you will log into the cluster using the command below. Your username is your UNC Charlotte username aka your email address without the @charlotte.edu portion 
 
@@ -79,7 +79,31 @@ Then you will be prompted to complete the DUO authentication. Enter 1, 2, or 3 f
 
 ## Using a Windows Computer
 
-### 
+### Windows Step 1 - Open or install Windows PowerShell
+
+The PowerShell comes installed on most new Windows machines. If you do not have it installed search "PowerShell" in the Windows Store and install the App
+
+![image](https://github.com/user-attachments/assets/5e99d02c-0db8-438f-97f4-3163846438cd)
+
+### Windows Step 2 - Log into the cluster
+
+Once the terminal is open, you will log into the cluster using the command below. Your username is your UNC Charlotte username aka your email address without the @charlotte.edu portion 
+
+Type the following command and hit enter/return.
+
+`ssh -m hmac-sha2-512 username@hpc.charlotte.edu`
+
+### Windows Step 3 - Enter your password
+
+You will be prompted to enter your password. **You will not see anything as you type!!** 
+
+Once your password is typed in hit enter/return.
+
+### Windows Step 4 - Complete two factor authentication
+
+Then you will be prompted to complete the DUO authentication. Enter 1, 2, or 3 for your preferred way of authenticating, and then press enter/return.
+
+&nbsp;
 
 
 
