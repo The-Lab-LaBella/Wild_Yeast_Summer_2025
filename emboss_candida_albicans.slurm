@@ -19,7 +19,7 @@ echo ""
 module load emboss
 
 
-getorf -sequence INPUT_SEQUENCE.fas -outseq OUTPUT_SEQUENCE.orf.fas -minsize=100
+getorf -sequence INPUT_SEQUENCE.fas -outseq OUTPUT_SEQUENCE.orf.fas -minsize=900
 
 echo ""
 echo "======================================================"
