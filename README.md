@@ -84,7 +84,7 @@ The LaBella and Yohe labs will conduct the wetlab work at the NCRC on Wednesdays
 * June 4th - [Sample Passaging](https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/Sample_Passaging.md)
 * June 11th - [Dilute & Plate ](https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/dilute_and_plate.md)
 * June 18th - [Streak out](https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/morphotype_streaking.md)
-* _June 25th - Evolution Conference_
+* _June 25th - Evolution Conference_ - [HPC Practice & Setup](https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/Intro_to_Cluster.md)
 * July 2nd - Growth Experiment
 * July 9th - DNA Extraction 
 * July 16th - Genome Assembly Tutorial
