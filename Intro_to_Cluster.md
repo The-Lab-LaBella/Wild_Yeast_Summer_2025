@@ -311,7 +311,8 @@ How many sequences are in our file.
 </details>
 
 &nbsp;
-# Step 6 - Analyze the base composition of our genome
+
+### Step 6 - Analyze the base composition of our genome
 
 While there are many useful programs already included in the terminal, there are programs that have been installed on the cluster as **modules**
 
@@ -356,5 +357,137 @@ What is the maximum GC content observed in our yeast genome sequences?
 0.34
 </details>
 
+### Step 7 - Find and extract open-reading frames from our genome
+
+Open Reading Frames (or ORFS) are the most simple method for identifying regions in a genome that may contain protein-coding genes. They consist of a start codon (ATG) and a stop codon. They _cannot_ account for more complicated gene structures like genes containing introns. They also do not exclude things that look like genes - but probably aren't.
+
+For example, a protein with the amino acid sequence ```MTTTTTTTTTTTTT``` is probably not a real gene!
+
+We will run this command by submitting a **slurm script** to the scheduler.
+
+
+#### Step 7a - Copy the slurm script
+First, you will need to copy the slurm script into your directory. 
+
+This time we will will copy it over directly from github. 
+
+```bash
+wget "https://raw.githubusercontent.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/refs/heads/main/emboss_candida_albicans.slurm"
+```
+
+### Step 7b - View the slurm script
+
+The slurm script contains all the information the slurm scheduler needs to run your job for you. 
+
+View the slurm script using either ```cat``` or ```less```
+
+```#! /bin/bash``` - This line tells the program reading the file that the language is bash
+
+Anything starting with #SBATCH will not be executed as part of the code. It is special instructions for the scheduler
+
+```#SBATCH --partition=Orion``` - This tells the scheduler what part of the 
+
+```#SBATCH --job-name=emboss_sacch```- This is a name for the job
+
+```#SBATCH --nodes=1``` - This is the number of nodes we are requesting to run the job
+
+```#SBATCH --ntasks-per-node=1``` - This is the number of tasks per node (we only increase this if we have threaded programs)
+
+```#SBATCH --time=1:00:00``` - This is **one of the most important parts**. This is the amount of time you are requesting for the job. The format is ```days-hours:minutes:seconds``` If you do not give enough time the program will end without completing and you will get an error!
+
+```#SBATCH --output=emboss_sacch.out``` - The name of the file in which the slurm will save any output that would have been shown in the command line (not the output for our program). 
+
+You will then see a bunch of lines starting with ```echo```. These are printed (or echoed) directly into our emboss_sacch.out file and they provide information about our run. 
+
+Then we get to the commands that will be executed by the slurm scheduler for us. **You must provide ALL commands in the script that you would type in the terminal**
+
+We have two commands, the ```module load``` and running the program ```getorf```. 
+
+As you can see there are place-holder files INPUT and OUTPUT that we will need to edit. 
+
+# Step 9 - Edit our slurm script
+
+Where you see the capital letters, you must put in the input file and specify a name for the output file 
+
+_click on image to enlarge_
+
+<img src="https://github.com/user-attachments/assets/a85e8dc4-4958-4fff-8b74-8c9c63760adc" width="400">
+
+There are many ways we can edit a file on the cluster. The most common ways are 
+1. upload/download
+2. nano
+3. vi
+
+&nbsp;
+### Option 1 - Upload/download
+
+One option is to download the file to your local computer, edit it in a text editor and then upload the file again. 
+If you are using a GUI to transfer files you may be able to edit files in the GUI which is analogous to upload/download. 
+
+This can get tricky if you aren't careful
+
+&nbsp;
+### Option 2 - nano
+
+nano is a built-in editor that allows you to edit files in the command line. 
+
+To edit our file in nano type
+
+```nano emboss_candida_albicans.slurm```
+
+This will open an editor that looks like this
+
+<img src="https://github.com/user-attachments/assets/832ed857-6396-427c-bc0b-edbdc865186d" width="500">
+
+You can then navigate to the INPUT using the arrow keys 
+
+Once there delete INPUT and replace it with our input file. Then navigate to OUTPUT and replace that with an output file ending in fasta. 
+
+To save the file use [Ctrl]+O or [Command]+O and then use enter/return to save to the same file name
+
+To exit use [Ctrl]+X (You can see a list of the other commands along the bottom)
+
+Check your edits using ```cat```
+
+&nbsp;
+### Option 3 - vi 
+
+vi or vim is another way to edit files in the command line. 
+
+To edit our file in vi use
+
+```vi emboss_candida_albicans.slurm```
+
+This will open an editor that looks like this:
+
+<img src="https://github.com/user-attachments/assets/85c8605d-fa56-43ca-9872-0b53afdc4d81" width="400">
+
+Use the arrow keys to navigate to where you want to edit. 
+To enter editing mode you must press the [i] key (you will see -- INSERT -- show up along the bottom)
+
+Once there delete INPUT and replace it with our input file. Then navigate to OUTPUT and replace that with an output file ending in fasta. 
+
+To save (write) your file you need to type ```:```. This will open a bar at the bottom where you can enter commands 
+
+Type ```w``` and then hit return/enter and you will then see ```"emboss_candida_albicans.slurm" 26L, 764C written```
+
+To quit type ```:q``` and enter
+
+Check your edits using ```cat``
+
+&nbsp;
+# Step 10 - Run the slurm script!
+
+To send your slurm script to the scheduler type
+
+**_TIP_** _Your slurm script will execute all the commands as though it is in the directory where you have the slurm script. If the script needs to access files in another directory you will need to specify the directory_
+
+```bash
+sbatch emboss_candida_albicans.slurm
+```
+
+You can see the jobs you have running using the command ```squeue -u username```
+
+This job may run so quickly it doesn't show up! 
 
 
