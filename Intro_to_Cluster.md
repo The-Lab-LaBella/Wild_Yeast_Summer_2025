@@ -111,3 +111,193 @@ Then you will be prompted to complete the DUO authentication. Enter 1, 2, or 3 f
 
 If you are new to the command line and the research cluster, below is a short activity that will help you practice essential skills for working in the command line
 
+## Step 1 - Navigating the Cluster
+
+You are currently in your home directory. You can return to this directory at any time by using the command ```cd```
+
+To see where you are in the cluster at any time use the command ```pwd``` which stands for Print Working Directory
+
+The cluster has folders and files just like your local computer. 
+
+```bash
+#change directory
+cd
+#present working directory
+pwd
+```
+&nbsp;
+
+### Step 1a - Make a Folder
+
+To make a folder or directory you use the command ```mkdir```
+
+Create a folder called ```candida_activity``` using the command below
+
+```bash
+mkdir candida_activity
+
+```
+
+**_TIP_** _**DO NOT** use spaces or other special characters in your folder or file names. Use only letters and numbers. If you want to differentiate words you can use_ ```_``` _or_ ```.```
+
+&nbsp;
+### Step 1b - List folders and directories
+
+To list the files or folders/directories in your current location use the ```ls``` command
+
+You can also use the command ```tree``` to view all the files and directories below where you are. 
+
+```bash
+#to list the files in the current directory
+ls
+#to see a tree of the files
+tree
+```
+
+&nbsp;
+
+### Step 1c - Enter your new directory 
+
+To change directories you use the ```cd``` or change directory command. 
+
+We want to enter the directory we just made. To do that execute the command below
+
+```bash
+cd candida_activity
+```
+
+Check to make sure you are where you think you are using ```pwd```. 
+
+_**TIP**_ _You can autocomplete any file or directory currently accessible by using tab. For example, if you are in your home directory and want to enter the lab_1 directory, you can type_ ```cd la[tab]``` _and it will complete to_ ```cd lab_1```
+_If there is more than one option it will list all of the options, and you will have to type more to complete the process._
+
+&nbsp;
+
+&nbsp;
+
+## Step 2 - Upload the genome file 
+
+We now need to get the file from your computer to the research cluster. You will first need to download the file from GitHub to your computer. 
+
+To transfer a file **from** your computer, you need a terminal that is connected to your local computer and _not_ to the HPC.
+
+### Step 2a - Open a new terminal and navigate to the folder
+
+Open a second terminal window and navigate to wherever your file is saved. 
+
+You can use ``cd`` to navigate to where your file is located. 
+
+Another option is to find the exact path of your file and nagivate there. To do that, you can open the finder/folder view and right-click/control-click on the file. You will see an option to ``Copy [item] as Pathname`` or ``Copy as path``
+
+You will then get a pathname like this: ``C:\Users\alabell3\Desktop\candida_albicans.fas.tar.gz`` the folder where the file is located is ``C:\Users\alabell3\Desktop\``
+
+Navigate to that folder using a command such as
+
+```
+cd C:\Users\alabell3\Desktop\
+```
+
+Use ``ls`` to make sure the file is in your current directory. 
+
+&nbsp;
+
+### Step 2b - Upload file
+
+The command for transferring a file from one computer to another is ``scp`` or "Secure CoPy". 
+
+The general format for ```scp``` or secure copying a file from your local computer to the cluster is:
+```bash
+scp LOCAL_FILE username@hpc.charlotte.edu:DIRECTORY/IN/DESTINATION
+```
+
+In Windows you will have to add an extra option.
+
+```bash
+scp -o MACs=hmac-sha2-512 LOCAL_FILE username@hpc.charlotte.edu:/DIRECTORY/IN/DESTINATION
+```
+
+Now, when you go back to your terminal that is logged into the cluster and type ``ls`` you should see your file! 
+
+&nbsp;
+
+### Step 3 - Uncompress the file 
+
+Sequence files can become quite large. There are numerous ways to compress a file using methods like tar, gzip, and zip. The file we are working with has been compressed using the tar command. 
+
+If you were to use the command ```cat``` or ```head``` to look at our file right now it would go crazy! (you can try it). If you ever need to exit a command that is running you can use ```[Cntrl]+[c]``` in windows or ```[command]+[.]``` on a mac. 
+
+
+To uncompress our file use the command
+```bash
+tar -xvf candida_albicans.fas.tar.gz
+```
+
+The ```-xvf``` tells the tar program what to do with the file listed
+
+```-x``` = extract 
+
+```-v``` = verbose (list all the files as they are being extracted)
+
+```-f``` = next item is the file
+
+You should now see a file called ```candida_albicans.fas```
+
+**_HINT_** You can see the options for any command by typing the command and following that with ```--help``` or sometimes ```-h```. For example ```tar --help``` will provide you with a detailed set of options for the command
+
+&nbsp;
+
+### Step 4 - Visualize the file
+
+This is a LARGE file. It is the whole genome of the yeast species _Saccharomyces candida_albicans_. It is in what is called FASTA format. Our file contains **nucleotide** data but FASTA files can contain amino acid or nucleotide data. The general format for FASTA format is:
+```
+>sequence identifier 1
+sequence data
+>sequence identifier 2
+sequence data
+```
+
+Let's take a look at our file using the ```less``` command.
+
+```bash
+less candida_albicans.fas
+```
+
+This will display the file in your terminal. You can press enter to see more of the file. To quit this view hit the ```q``` key
+
+
+Now let's take a look at our file using the ```head``` command. This command will print into your terminal the first set of lines in the file. You can also specify how many lines you would like it to display. Let's look at the first 5 lines. 
+
+```bash
+head -5 candida_albicans.fas
+```
+
+### Knowledge Check 1
+What is the sequence identifier of the first sequence in the candida_albicans.fas file 
+
+<details>
+ <summary>Answer</summary>
+ Ca22chr1A_C_albicans_SC5314 (3188363 nucleotides)
+</details>
+
+&nbsp;
+
+### Step 5 - Count the number of sequences
+
+There are a wide variety of tools to analyze sequence data. The built-in tools in our terminal can also be very powerful. One of the most powerful tools is ```grep```. 
+
+The ```grep``` command can search for a pattern in a large file. 
+
+If we want to count how many sequences there are in our file, we can simply count the number of times the ```>``` character appears in our file. 
+
+Try out grep using this command:
+```bash
+grep ">" candida_albicans.fas
+```
+
+One of the options in ```grep``` is to count the number of instances instead of returning them. This is the ```-c``` option. 
+```bash
+grep -c ">" candida_albicans.fas
+```
+
+To see more options in ```grep``` try ```grep --help```
+
