@@ -22,6 +22,7 @@ If you are completely new to the command line, here are some websites to review 
 - Basic Command Line Commands: https://www.geeksforgeeks.org/basic-linux-commands/
 - Navigating in the command line https://www.youtube.com/watch?v=dzHscTzpAME 
 - POSIX game to get you started: https://gitlab.com/slackermedia/bashcrawl
+- What is SLURM!? https://blog.ronin.cloud/slurm-intro/
 
 &nbsp;
 
@@ -300,4 +301,60 @@ grep -c ">" candida_albicans.fas
 ```
 
 To see more options in ```grep``` try ```grep --help```
+
+### Knowledge Check 2
+How many sequences are in our file. 
+
+<details>
+ <summary>Answer</summary>
+9
+</details>
+
+&nbsp;
+# Step 6 - Analyze the base composition of our genome
+
+While there are many useful programs already included in the terminal, there are programs that have been installed on the cluster as **modules**
+
+To access these modules we will need to load them.
+
+The program module we will be using in this section is called EMBOSS. Let's see if EMBOSS is installed in the cluster using the command ```module search```
+
+```bash
+module search EMBOSS
+##this will return 
+------------------------------------------------------------------ /apps/usr/modules/apps -------------------------------------------------------------------
+        emboss/6.6.0: EMBOSS (European Molecular Biology Open Software Suite) is a software analysis package specially developed for the needs of the molecular biology (e.g. EMBnet) user community. The software automatically copes with data in a variety of formats and even allows transparent retrieval of sequence data from the web.
+````
+
+We can see that EMBOSS version 6.6.0 is installed on the cluster
+
+**_TIP_** _Case (upper vs lower) matters when loading modules. You will need to type it exactly as written before the : in the description._
+
+**_TIP_** _Placing a_ ```#``` _before any line of code means it's a comment and not a command. I will often put notes in the code using # that will be ignored._
+
+To load emboss we can now type
+
+```bash
+module load emboss
+```
+
+Within emboss we want to run the ```geecee```. As you can see from the name, it is a program for calculating the fraction of G (gee) or C (cee) in a sequence file. To learn more about the program use ```geecee --help```
+
+
+To run geecee on our sequences use the command below where we provide an informative output file name for the results to be saved
+
+```bash
+geecee -sequence candida_albicans.fas -outfile candida_albicans.geecee.out
+```
+
+
+### Knowledge Check 2
+What is the maximum GC content observed in our yeast genome sequences?
+
+<details>
+ <summary>Answer</summary>
+0.34
+</details>
+
+
 
