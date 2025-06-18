@@ -349,7 +349,7 @@ geecee -sequence candida_albicans.fas -outfile candida_albicans.geecee.out
 ```
 
 
-### Knowledge Check 2
+### Knowledge Check 3
 What is the maximum GC content observed in our yeast genome sequences?
 
 <details>
@@ -375,7 +375,7 @@ This time we will will copy it over directly from github.
 wget "https://raw.githubusercontent.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/refs/heads/main/emboss_candida_albicans.slurm"
 ```
 
-### Step 7b - View the slurm script
+#### Step 7b - View the slurm script
 
 The slurm script contains all the information the slurm scheduler needs to run your job for you. 
 
@@ -405,7 +405,7 @@ We have two commands, the ```module load``` and running the program ```getorf```
 
 As you can see there are place-holder files INPUT and OUTPUT that we will need to edit. 
 
-# Step 9 - Edit our slurm script
+# Step 8 - Edit our slurm script
 
 Where you see the capital letters, you must put in the input file and specify a name for the output file 
 
@@ -476,7 +476,7 @@ To quit type ```:q``` and enter
 Check your edits using ```cat``
 
 &nbsp;
-# Step 10 - Run the slurm script!
+### Step 9 - Run the slurm script!
 
 To send your slurm script to the scheduler type
 
@@ -490,4 +490,134 @@ You can see the jobs you have running using the command ```squeue -u username```
 
 This job may run so quickly it doesn't show up! 
 
+&nbsp;
+### Step 10 - Analyze the output file 
 
+Once the job is done running, you will see your output file appear in your directory. Next, we will analyze our file. 
+
+First, take a look at the file using ```less``` or ```head```. 
+
+You should see protein sequences in fasta format with a header like this (this is not the actual first sequence_
+
+```
+>Ca22chr1A_C_albicans_SC5314_20665 [3187944 - 3187810] (REVERSE SENSE) (3188363 nucleotides)
+MRVLITIMACHXQRRNTHLRKKLTKKLLVLNIHLIQLIQEKQSEC
+ ```
+
+```Ca22chr1A_C_albicans_SC5314_20665``` - This is the sequence identifier. The first part ```NC_001141``` is the genome sequence in which the open reading frame was found. ```3935``` is the identifier for this coding sequence. It's the 3,935th coding sequence identified on this contig (genome sequence). 
+
+```[3187944 - 3187810]``` - Is the position along the contig (genome sequence) where the ORF was found. 
+
+```(REVERSE SENSE)``` - This identifier is only present in ORF frames that were found when reading in reverse-complement (complimentary sequence going from right-to-left) along the DNA sequence. 
+
+Use commands such as ```grep``` to answer the questions below. Remember, you can look at the options for grep using ```grep --help```
+
+### Knowledge Check 4
+How many ORFs were annotated in the _Candida albicans_ genome? Is this more or less than the number of genes you would expect in this genome? (Use google to find the number of genes in _Candida albicans_)
+
+<details>
+ <summary>Answer</summary>
+4249
+
+This is fewer genes than we would expect. _C. albicans_ should have about 6,100 genes. This suggests that looking only at open reading frames with >300 amino acids does not capture the complete genetic diversity. Why might this be?
+</details>
+
+&nbsp;
+### Step 11 - Extract data for one genomic contig
+
+We are particularly interested in the contig **Ca22chr1A_C_albicans_SC5314** 
+
+Let's extract all the ORFs belonging to this contig. There are ways using biopython, bioperl or other programs to load in and analyze a fasta file. We will, however, do this manually using bash. 
+
+##### Step 11a - Making our file a one-line fasta file
+
+If we look into our fasta file we will see a snippet like this:
+
+```bash
+>Ca22chr1A_C_albicans_SC5314_27 [2243 - 2686] (3188363 nucleotides)
+HSLFALATTSKHNCIDXTLLISCCIPPVVINXPRVVLLLIVQPANTTTTALTTPSSFRVA
+IPXTTRFTFPTAIDYSNYKLFYRPFSNXQAQRDTCLGIYNSFYSSFCICHAICPPPIIQP
+ANTTATGIDNCFHCYDTTTDYMLFTQQT
+>Ca22chr1A_C_albicans_SC5314_28 [2397 - 2807] (3188363 nucleotides)
+LHPLHFVLQFPXPLGSHFPPPLTTQTTSCSIVPSPTSKHNEIHVWAFTIASTHHFASAMQ
+SAHHPSSNQQTQPQRALTTASTAMTPPLTTCCSPSKHNTLHSSSSISHSTTAISTGSPSS
+LTSVKYTTPQINYPXPA
+>Ca22chr1A_C_albicans_SC5314_29 [2770 - 2889] (3188363 nucleotides)
+NTPPHRSTIPXRLDFRKIHYKAYPLSDYPSVPQINYPXPA
+>Ca22chr1A_C_albicans_SC5314_30 [2850 - 2954] (3188363 nucleotides)
+LPLSPTDQLSPAGLTSVKXTTXSAPSTLSSSIDXQ
+>Ca22chr1A_C_albicans_SC5314_31 [2690 - 3067] (3188363 nucleotides)
+HLAQFKFNFPFYNCNFYWVPEQFDFRKIHHPTDQLSPAGLTSVKYTTKPTPCLTTPQSHR
+STIPXRLDFRKIXYXVCPFYTLLFYRFXVNIFLFYVITTTLASLSVAAISXFSPILVRLT
+SVHSPG
+>
+```
+What we can see is that each **line is limited to 60 characters**. We want to re-format our file so it keeps the entire protein sequence on one line. 
+
+To do this we can use this command (we will dive deeper into the powerful ```awk``` command later)
+
+```bash
+awk '/^>/ {printf("\n%s\n",$0);next; } { printf("%s",$0);}  END {printf("\n");}' < INPUT_FILE.fasta > OUTPUT_FILE.oneline.fasta
+```
+Replace the INPUT and OUTPUT file names with the names you used in the slurm script and execute the command
+
+Now our output file should look more like this:
+
+```bash
+>Ca22chr1A_C_albicans_SC5314_27 [2243 - 2686] (3188363 nucleotides)
+HSLFALATTSKHNCIDXTLLISCCIPPVVINXPRVVLLLIVQPANTTTTALTTPSSFRVAIPXTTRFTFPTAIDYSNYKLFYRPFSNXQAQRDTCLGIYNSFYSSFCICHAICPPPIIQPANTTATGIDNCFHCYDTTTDYMLFTQQT
+>Ca22chr1A_C_albicans_SC5314_28 [2397 - 2807] (3188363 nucleotides)
+LHPLHFVLQFPXPLGSHFPPPLTTQTTSCSIVPSPTSKHNEIHVWAFTIASTHHFASAMQSAHHPSSNQQTQPQRALTTASTAMTPPLTTCCSPSKHNTLHSSSSISHSTTAISTGSPSSLTSVKYTTPQINYPXPA
+>Ca22chr1A_C_albicans_SC5314_29 [2770 - 2889] (3188363 nucleotides)
+NTPPHRSTIPXRLDFRKIHYKAYPLSDYPSVPQINYPXPA
+>Ca22chr1A_C_albicans_SC5314_30 [2850 - 2954] (3188363 nucleotides)
+LPLSPTDQLSPAGLTSVKXTTXSAPSTLSSSIDXQ
+>Ca22chr1A_C_albicans_SC5314_31 [2690 - 3067] (3188363 nucleotides)
+HLAQFKFNFPFYNCNFYWVPEQFDFRKIHHPTDQLSPAGLTSVKYTTKPTPCLTTPQSHRSTIPXRLDFRKIXYXVCPFYTLLFYRFXVNIFLFYVITTTLASLSVAAISXFSPILVRLTSVHSPG
+```
+
+#### Step 11b - Extracting the sequences for Ca22chr1A_C_albicans_SC5314
+
+Now we will extract all the sequences that contain the identifier "Ca22chr1A_C_albicans_SC5314" and save them to a new file
+
+```bash
+grep -A 1 "Ca22chr1A_C_albicans_SC5314" OUTPUT_FILE.oneline.fasta > Ca22chr1A_C_albicans_SC5314.fasta
+```
+Here is a breakdown of the command
+
+```-A 1``` - This invokes the ``-A`` option which is also known as ``--after-context=NUM   print NUM lines of trailing context``. In this case, we want to obtain any sequence matching our search (which will be the header line starting with >) AND the sequence data saved directly after it. 
+
+``` ""Ca22chr1A_C_albicans_SC5314"``` - This is the pattern we are searching for
+
+```OUTPUT_FILE.oneline.fasta``` - This is the file we are searching in
+
+If we were to stop the command at ```grep -A 1 "Ca22chr1A_C_albicans_SC5314" OUTPUT_FILE.oneline.fasta``` it would print the results directly onto the terminal. We want to **direct the output to a new file**. To do this we need to use the command ```>```. 
+
+```> Ca22chr1A_C_albicans_SC5314.fasta``` - This directs the output of the command to be saved in a new file. **_BEWARE_** This will **automatically overwrite** any file that already has our output name. If this happens **you will not be able to undo this**
+
+
+
+**_TIP_** _Options in programs typically have a short version that is one letter long and a long version that may be multiple characters long. For the option above for obtaining 1 line after your search, you can either use_ ```-A 1``` _or you can use the long version_ ```--after-context=1```. _Options are almost always case-sensitive. The_ ```-A``` _command means after-context while_ ```-a``` _is used while searching binary/compressed files_
+
+### Knowledge Check 5
+What percent of the ORFs annotated on the contig Ca22chr1A_C_albicans_SC5314 were annotated on the REVERSE strand? 
+
+<details>
+ <summary>Answer</summary>
+There are **940** open reading frames on Ca22chr1A_C_albicans_SC5314
+
+```
+grep -c ">" Ca22chr1A_C_albicans_SC5314.fasta
+940
+
+```
+
+There are  478 open reading frames on this contig that are in the Reverse strand
+
+```
+grep -c "REVERSE" Ca22chr1A_C_albicans_SC5314.fasta
+478
+```
+
+Therefore 478/940 or 50.85% are on the reverse strand.
+</details> 
