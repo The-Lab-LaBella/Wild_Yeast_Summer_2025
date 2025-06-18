@@ -8,6 +8,8 @@
 
 [Logging in](#logging-in)
 
+[Short Activity](#short-activity)
+
 &nbsp;
 &nbsp;
 
@@ -73,7 +75,7 @@ Once your password is typed in hit enter/return.
 
 ### Mac Step 4 - Complete two factor authentication
 
-Then you will be prompted to complete the DUO authentication. Enter 1, 2, or 3 for your preferred way of authenticating, and then press enter/return.
+Then you will be prompted to complete the DUO authentication. Enter 1, 2, or 3 for your preferred way of authenticating, and then press Enter/Return.
 
 &nbsp;
 
@@ -105,5 +107,7 @@ Then you will be prompted to complete the DUO authentication. Enter 1, 2, or 3 f
 
 &nbsp;
 
+# Short Activity
 
+If you are new to the command line and the research cluster, below is a short activity that will help you practice essential skills for working in the command line
 
