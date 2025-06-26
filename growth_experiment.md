@@ -17,6 +17,29 @@ We will use **glycerol** as a cryoprotectant. This protects the cells by prevent
 
 ## Growth Curves
 
+![image](https://github.com/user-attachments/assets/017cfc9f-cb79-4740-825e-37ef985066b8)
+_image from Michal Komorniczak (Poland)_
+
+**Lag Phase**
+- This is the period of time when the microbe is adjusting to new conditions
+- Lag phase can vary due to technical differences or the ability of the microbe to adjust
+
+**Exponential Phase**
+- This occurs when the population is doubling.
+- The slope of the line provides information on how quickly the cells are doubling.
+
+ **Stationary Phase**
+ - Lack of nutrients, accumulation of waste, or lack of space can cause the cells to stop growing exponentially
+ - Cells will change their physiology at this point to adapt to starvation conditions
+
+**Metrics From Growth Curves**
+- Length of lag phase
+- Growth rate or slope of the exponential growth period
+- Doubling time or the time it takes for the population to double in size
+- Area Under the Curve (AUC) summarize the overall growth (rate and duration)
+- Centroid - hypothetical point on the curve that represents the "center of mass" and summarizes the magnitude and timing
+- Max Growth or the highest OD read
+
 
 
 &nbsp;
