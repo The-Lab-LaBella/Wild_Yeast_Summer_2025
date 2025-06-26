@@ -69,6 +69,7 @@ _image from Michal Komorniczak (Poland)_
 
 - Autoclaved MiliQ water
 - Autoclaved 1.5mL microtubes
+- Sterile YPD
 - Shared 96-well plate & assigned wells
 
 &nbsp;
