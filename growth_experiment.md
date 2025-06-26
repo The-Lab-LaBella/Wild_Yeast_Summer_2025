@@ -5,15 +5,22 @@ This week, we are going to set up a growth experiment with your two yeasts and s
 
 The day before this experiment, a YPD liquid culture was established using a single colony from your plate. You will use this liquid culture today. 
 
+&nbsp;
+
 ## Glycerol Stocks
 
 We want to store the yeast collected for future experiments. We want to freeze the yeast so they can be revived later. 
 
 We will use **glycerol** as a cryoprotectant. This protects the cells by preventing the formation of ice crystals. 
 
+&nbsp;
+
 ## Growth Curves
 
 
+
+&nbsp;
+&nbsp;
 ## Glycerol Stock Protocol
 
 **Required Materials**
@@ -21,7 +28,6 @@ We will use **glycerol** as a cryoprotectant. This protects the cells by prevent
 - Sterile PBST 20%, Glycerol 0.1%, tween 20
 - Sterile MiliQ water
 - 2mL Cryotube
-
 
 **Protocol**
 
@@ -31,6 +37,9 @@ We will use **glycerol** as a cryoprotectant. This protects the cells by prevent
 4. Using a P1000 pipette, resuspend the biomass in 1.5mL PBST 20%, Glycerol 0.1%, tween 20
 5. Add the resuspended biomass to the cyrotube and transfer to the -80 freezer
 
+&nbsp;
+&nbsp;
+
 ## Growth Experiment 
 
 **Required Materials**
@@ -38,6 +47,8 @@ We will use **glycerol** as a cryoprotectant. This protects the cells by prevent
 - Autoclaved MiliQ water
 - Autoclaved 1.5mL microtubes
 - Shared 96-well plate & assigned wells
+
+&nbsp;
 
 **Formula**
 
@@ -56,6 +67,7 @@ Volume of Stock ________μL = ( 0.0001 OD600 x 700μL ) / ________ OD600 reading
 
 Volume of YPD___________μL = 700μL - Volume of Stock ________μL
 
+&nbsp;
 
 **Protocol**
 1. Label your 1.5mL microtubes with the sample IDs
