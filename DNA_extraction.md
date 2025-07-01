@@ -136,11 +136,15 @@ Materials Required
 -	2 Collection Tubes column per sample 
 -	1 microcentrifuge column per sample
 
+&nbsp;
+
 1.	Add 200 µl BioFluid & Cell Buffer (Red) to the sample
 2.	Add 20 μl Proteinase K to the sample
 3.	Vortex for 10-15 seconds
 4.	Incubate at 55°C  for 10 minutes
 5.	Add 400 µl of Genomic Binding Buffer
+
+&nbsp;
 
 6.	Place a Zymo-Spin Column in a collection tube
 7.	Transfer 800 µl of your mixture to the column 
@@ -148,17 +152,25 @@ Materials Required
 9.	Discard the flow-through and collection tube
 10.	 Place spin column in a new collection tube
 
+&nbsp;
+
 11.	 Add 400 µl of DNA Pre-Wash Buffer to the spin column
 12.	 Centrifuge at 12,000 x g for 1 minute
 13.	 Empty the collection tube
+
+&nbsp;
 
 14.	 Add 700 μl g-DNA Wash Buffer to the spin column.
 15.	 Centrifuge at 12,000 x g for 1 minute
 16.	 Empty the collection tube
 
+&nbsp;
+
 17.	 Add 200 μl g-DNA Wash Buffer to the spin column
 18.	 Centrifuge at 12,000 x g for 1 minute
 19.	 Discard the flow-through and collection tube
+
+&nbsp;
 
 20.	 Transfer the spin column to a clean microcentrifuge tube
 21.	 Add 50 μl DNA Elution Buffer
