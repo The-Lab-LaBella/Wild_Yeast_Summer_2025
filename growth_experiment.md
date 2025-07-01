@@ -3,6 +3,8 @@
 
 This week, we are going to set up a growth experiment with your two yeasts and save your yeast for the future in a glycerol stock. 
 
+We will also need to set up tubes for growing your yeast up for next week's DNA extraction. 
+
 The day before this experiment, a YPD liquid culture was established using a single colony from your plate. You will use this liquid culture today. 
 
 &nbsp;
@@ -40,6 +42,18 @@ _image from Michal Komorniczak (Poland)_
 - Centroid - hypothetical point on the curve that represents the "center of mass" and summarizes the magnitude and timing
 - Max Growth or the highest OD read
 
+
+
+&nbsp;
+## Label your tubes
+
+**Required Materials**
+- 4 14mL culture tubes
+- YPD
+
+ **Protocol**
+- For each of your samples, label 2 14ml culture tubes with the sample ID
+- Add 5mL of YPD to each tube
 
 
 &nbsp;
