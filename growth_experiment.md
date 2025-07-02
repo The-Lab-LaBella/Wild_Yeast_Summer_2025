@@ -118,6 +118,9 @@ Volume of YPD___________μL = 700μL - Volume of Stock ________μL
 2. Add 1.5 mL PBST 20%, Glycerol 0.1%, tween 20 to each tube.  
 
 Dr. LaBella will complete this on Thursday to give your cultures more time to grow
+
 _3. Spin down the culture at 4C for 5 minutes at 3,000xg_
+
 _4. Wash the pellet with sterile MiliQ water and spin down at 4C for 5 minutes at 3,000xg_
+
 _6. Add the resuspended biomass to the cyrotube and transfer to the -80 freezer_
