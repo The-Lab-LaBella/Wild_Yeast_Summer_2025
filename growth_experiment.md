@@ -45,7 +45,8 @@ _image from Michal Komorniczak (Poland)_
 
 
 &nbsp;
-## Label your tubes
+# STEP 1
+## Set up Cultures for next week
 
 **Required Materials**
 - 4 14mL culture tubes
@@ -53,34 +54,19 @@ _image from Michal Komorniczak (Poland)_
 
  **Protocol**
 - For each of your samples, label 2 14ml culture tubes with the sample ID
-- Add 5mL of YPD to each tube
+- Put one for each sample in the rack for next week
+- Add 10mL of YPD to one tube for each sample*
+- Add 100μL of yeast culture to the labeled tube*
+
+
 
 
 &nbsp;
 &nbsp;
-## Glycerol Stock Protocol
-
-**Required Materials**
-- Yeast culture
-- Sterile PBST 20%, Glycerol 0.1%, tween 20
-- Sterile MiliQ water
-- 2mL Cryotube
-
-**Protocol**
-
-1. Label cryotubes with your sample ID. This MUST BE LEGIBLE 
-2. Spin down the culture at 4C for 5 minutes at 3,000xg
-3. Wash the pellet with sterile MiliQ water and spin down at 4C for 5 minutes at 3,000xg
-4. Using a P1000 pipette, resuspend the biomass in 1.5mL PBST 20%, Glycerol 0.1%, tween 20
-5. Add the resuspended biomass to the cyrotube and transfer to the -80 freezer
-
-&nbsp;
-&nbsp;
-
+# STEP 2
 ## Growth Experiment 
 
 **Required Materials**
-
 - Autoclaved MiliQ water
 - Autoclaved 1.5mL microtubes
 - Sterile YPD
@@ -114,3 +100,24 @@ Volume of YPD___________μL = 700μL - Volume of Stock ________μL
 4. Record your OD600 measurement in the formula above
 5. Dilute your sample to 0.0001 OD600 by adding ________ μL of sample to _____ μL of YPD to create a 700μL dilution in a 1.5ml microtube
 6. Add 200 μL of diluted sample to each well assigned
+
+&nbsp;
+&nbsp;
+# STEP 3
+## Glycerol Stock Preparation
+
+**Required Materials**
+- Yeast culture
+- Sterile PBST 20%, Glycerol 0.1%, tween 20
+- Sterile MiliQ water
+- 2mL Cryotube
+
+**Protocol**
+
+1. Label cryotubes with your sample ID. This MUST BE LEGIBLE
+2. Add 1.5 mL PBST 20%, Glycerol 0.1%, tween 20 to each tube.  
+
+Dr. LaBella will complete this on Thursday to give your cultures more time to grow
+_3. Spin down the culture at 4C for 5 minutes at 3,000xg_
+_4. Wash the pellet with sterile MiliQ water and spin down at 4C for 5 minutes at 3,000xg_
+_6. Add the resuspended biomass to the cyrotube and transfer to the -80 freezer_
