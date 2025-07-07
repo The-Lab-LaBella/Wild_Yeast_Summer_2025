@@ -29,7 +29,7 @@ Required Materials
 
 9.	Select Rapid capture in the machine
 10.	Record the Trypan Blue Corrected Total 
-11.	 If the concentration is less than 1 × 104 or greater than 1 × 107 cells/mL, you will need to re-analyze your sample with a new dilution
+11.	 If the concentration is less than 1 × 10^4 or greater than 1 × 10^7 cells/mL, you will need to re-analyze your sample with a new dilution
 
 &nbsp;
 
@@ -49,9 +49,9 @@ Final Cell count of: _______________________________cells/mL
 
 &nbsp;
 
-Calculate volume for 5 x 106 cells
+Calculate volume for 5 x 10^6 cells
 
-5 x 106 cells
+5 x 10^6 cells
 
 _Divided by_
 
