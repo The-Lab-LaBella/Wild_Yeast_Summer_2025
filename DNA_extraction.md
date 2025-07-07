@@ -6,22 +6,7 @@ The day before the extraction, a culture of your yeast will be grown for you. Th
 
 # Day 1 - DNA Extraction
 
-## STEP 1 - Measure OD
-
-Materials Required
--	Autoclaved YPD liquid medium
-
-1.	Blank the spectrophotometer if you are the first to use it.
-  a.	Add 1mL of YPD to the cuvette
-  b.	Place the cuvette in the spectrometer and press ‘ZERO’
-2.	Add 1mL of your sample to the cuvette
-3.	Record the OD600 of your sample
-
-OD Reading: ___________________________
-
-&nbsp;
-
-## STEP 2 - Measure Cell Count
+## STEP 1 - Measure Cell Count
 
 Required Materials
 -	0.4% trypan blue
@@ -80,7 +65,7 @@ Total mls needed:________________________________________
 &nbsp;
 &nbsp;
 
-## STEP 3 - DNA extraction
+## STEP 2 - DNA extraction
 
 ### Cell collection
 
