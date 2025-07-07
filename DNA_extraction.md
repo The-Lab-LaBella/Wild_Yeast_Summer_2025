@@ -86,7 +86,7 @@ Materials Required
 &nbsp;
 &nbsp;
 
-## STEP 4 - Spheroplast (Cells without a cell wall) collection
+## STEP 3 - Spheroplast (Cells without a cell wall) collection
 Materials Required
 -	Cold Spheroplast Buffer: 1M sorbitol, 1X PBS pH 7.4, 0.1 M EDTA
 -	Zymolyase (5U/μl)
@@ -109,7 +109,7 @@ Materials Required
 &nbsp;
 &nbsp;
 
-## STEP 5 - Quick-DNA™ Miniprep Plus Kit
+## STEP 4 - Quick-DNA™ Miniprep Plus Kit
 -	55°C incubator
 -	Resuspended Proteinase K
 -	BioFluid & Cell Buffer (Red)
