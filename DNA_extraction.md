@@ -154,13 +154,15 @@ Materials Required
 17.	 Add 200 μl g-DNA Wash Buffer to the spin column
 18.	 Centrifuge at 12,000 x g for 1 minute
 19.	 Discard the flow-through and collection tube
+20.	Centrifuge at 12,000 x g for 1 minute
+21.	Discard the flow-through and collection tube
 
 &nbsp;
 
-20.	 Transfer the spin column to a clean microcentrifuge tube
-21.	 Add 50 μl DNA Elution Buffer
-22.	 Incubate for 5 minutes at room temperature
-23.	 Centrifuge at 12,000 x g for 1 minute
-24.	 Your DNA will now be at the bottom of your microcentrifuge tube
+22	 Transfer the spin column to a clean microcentrifuge tube
+23.	 Add 50 μl DNA Elution Buffer
+24.	 Incubate for 5 minutes at room temperature
+25.	 Centrifuge at 12,000 x g for 1 minute
+26.	 Your DNA will now be at the bottom of your microcentrifuge tube
 
 
