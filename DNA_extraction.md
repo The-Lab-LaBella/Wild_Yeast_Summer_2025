@@ -160,9 +160,13 @@ Materials Required
 &nbsp;
 
 22	 Transfer the spin column to a clean microcentrifuge tube
+
 23.	 Add 50 μl DNA Elution Buffer
+
 24.	 Incubate for 5 minutes at room temperature
+
 25.	 Centrifuge at 12,000 x g for 1 minute
+
 26.	 Your DNA will now be at the bottom of your microcentrifuge tube
 
 
