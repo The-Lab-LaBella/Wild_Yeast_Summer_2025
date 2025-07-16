@@ -133,7 +133,7 @@ I will conduct the tutorial using samples for PAG
 samples<-subset(all_data.tidy, Sample == "PAG-052825-01-A" | Sample == "PAG-052825-02-A" )
 
 #Look at your data
-ggplot(data = samples, aes(x= Time, y=Meas_norm, color=Sample))+facet_wrap(~Sample)+geom_point()
+ggplot(data = samples, aes(x= Time, y=Measurements, color=Sample))+facet_wrap(~Sample)+geom_point()
 
 ```
 "Bacteria often have a period of time before they reach their maximum growth rate. If you would like to
