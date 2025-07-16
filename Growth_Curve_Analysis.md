@@ -26,9 +26,9 @@ https://rmarkdown.rstudio.com/lesson-1.html
 
 You will need 3 files for this analysis:
 
-1. `wild_yeast_growth_curve_analysis.RMD` which is the R-markdown file
-2. `combined_curve.tsv` tab-delimited file containing our growth rate data
-3. `strain_sample.txt` contains the names of each well
+1. `wild_yeast_growth_curve_analysis.RMD` which is the R-markdown file [file][https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/wild_yeast_growth_curve_analysis.Rmd]
+2. `combined_curve.tsv` tab-delimited file containing our growth rate data [file][https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/combined_curve.tsv]
+3. `strain_sample.txt` contains the names of each well [file][https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/strain_sample.txt]
 
 All three files should be placed in the same directory. 
 
