@@ -162,9 +162,9 @@ geom_point() + facet_wrap(~Well) + geom_vline(data = samples.lagtime, aes(xinter
 
 # Maximum growth rate and minimum doubling time
 
-If you want to calculate the bacterial maximum growth rate (i.e. the minimum doubling time), it will often be
+"If you want to calculate the bacterial maximum growth rate (i.e. the minimum doubling time), it will often be
 sufficient to use max_gc on the per-capita derivatives we calculated in vignette("gc05_process"). (max_gc
-works just like R’s built-in max, but with better default settings for growth curve analyses with summarize).
+works just like R’s built-in max, but with better default settings for growth curve analyses with summarize)."
 
 
 ```{r max growth rate }
@@ -192,13 +192,13 @@ geom_abline(data = samples.maxgrowth, color = "red", aes(slope = max_percap, int
 # Maximum density
 
 
-The maximum bacterial density can be a measure of bacterial growth yield/efficiency. If your bacteria
+"The maximum bacterial density can be a measure of bacterial growth yield/efficiency. If your bacteria
 plateau in density, the maximum density can also be a measure of bacterial carrying capacity. If you want
 to quantify the maximum bacterial density, we can use max_gc to get the global maxima of Measurements
 (max_gc, which_max_gc, and extr_val work just like R’s built-in max, which.max, and [, but with better
 default settings for growth curve analyses with summarize).
 See Peak bacterial density for identifying local maxima of Measurements (e.g. if you wanted the first peak
-in Well E11 shown below).
+in Well E11 shown below)."
 
 ```{r max density}
 
@@ -221,9 +221,9 @@ geom_point() + facet_wrap(~Well) +
 
 # Area under the curve
 
-The area under the curve is a common metric of total bacterial growth, for instance in the presence of
+"The area under the curve is a common metric of total bacterial growth, for instance in the presence of
 antagonists like antibiotics or phages. If you want to calculate the area under the curve, you can use the
-gcplyr function auc. Simply specify Time as the x and Measurements as the y data whose area-under-thecurve you want to calculate.
+gcplyr function auc. Simply specify Time as the x and Measurements as the y data whose area-under-thecurve you want to calculate."
 
 
 ```{r auc}
