@@ -87,7 +87,7 @@ The LaBella and Yohe labs will conduct the wetlab work at the NCRC on Wednesdays
 * _June 25th - Evolution Conference_ - [HPC Practice & Setup](https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/Intro_to_Cluster.md)
 * July 2nd - [Growth Experiment](https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/growth_experiment.md)
 * July 9th - [DNA Extraction](https://github.com/The-Lab-LaBella/Wild_Yeast_Summer_2025/blob/main/DNA_extraction.md)
-* July 16th - Genome Assembly Tutorial
-* _July 23rd - Dr. LaBella out of town_
+* July 16th - Growth Curve Analysis
+* _July 23rd - Dr. LaBella out of town_ & Computational Time
 * July 30th - Genome Assembly
 
