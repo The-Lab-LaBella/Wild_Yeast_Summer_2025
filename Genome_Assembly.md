@@ -159,6 +159,58 @@ flye --nano-hq RKTL8P_10_ABB-01.filtered.fastq -o RKTL8P_10_ABB-01/ --threads 16
 
 We will further refine our assembly using Medaka: https://github.com/nanoporetech/medaka
 
-Again we will run this using a slurm script 
+Again we will run this using a slurm script - this should take less than 30 minutes
 
+```
+#!/bin/bash
+#SBATCH --job-name=medaka_assembly
+#SBATCH --output=medaka_assembly_%j.out
+#SBATCH --error=medaka_assembly_%j.err
+#SBATCH --partition=Orion
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=32G
+#SBATCH --time=4:00:00
+
+module load artic
+
+# Replace the following with your medaka command and input files
+medaka_consensus -i RKTL8P_10_ABB-01.filtered.fastq -d RKTL8P_10_ABB-01/assembly.fasta -o RKTL8P_10_ABB-01 -t 16
+
+```
+
+&nbsp;
+
+## Step 4 - Analyze your final genome
+
+Your final genome is now held in your new folder under the name `consensus.fasta`
+
+### Step 4a - Copy your genome
+
+We want to rename the genome to it's proper name
+
+```cp RKTL8P_10_ABB-01/consensus.fasta ABB_052825_01_A.fasta```
+
+### Step 4b - Analyze your genome quality 
+
+```
+#remove any active modules
+module purge
+
+#load QUAST
+module load quast
+```
+
+
+
+# Set up Funannotate
+
+```
+module load anaconda
+conda create -n funannotate "python>=3.6,<3.9" funannotate
+conda activate funannotate
+conda install chardet
+export FUNANNOTATE_DB=/projects/labella_lab/funannotate_db
+```
 
