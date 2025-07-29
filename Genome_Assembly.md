@@ -90,18 +90,46 @@ Flye is available on the HPC so we will load it first
 module load flye
 ```
 
-### Step 3b - Run Flye using the high quality nanopore settings
+### Step 3b - Uncompress the fastq files
+
+Flye expects uncompressed files so you will need to uncompress the gz file generated above
+
+```
+gunzip RKTL8P_10_ABB-01.fastq.filtered.gz
+```
+
+### Step 3c - Run Flye using the high quality nanopore settings
 
 The genome assembly will take more resources than we should use on the head node of the cluster.
 
-Therefore we are going to ask that the assembly be sent to a node on the cluster that will run the analysis for us 
+Therefore we are going to submit a slurm job to the cluster.
+
+You will copy the slurm file `flye_assembly.slurm` from the project space. 
 
 ```
-#decompress the filtered files
-gunzip RKTL8P_10_ABB-01.fastq.filtered.gz
+cp /projects/labella_lab/wild_yeast/flye_assembly.slurm
+```
 
-#run flye
-srun --time=1:00:00 --mem=32G --cpus-per-task=4 flye --nano-hq RKTL8P_10_ABB-01.filtered.fastq -o RKTL8P_10_ABB-01/ --threads 4
+You will then need to change the name of the sequence in the file. You can see the text of the file below. 
+
+```
+#!/bin/bash
+#SBATCH --job-name=flye_assembly
+#SBATCH --output=flye_assembly_%j.out
+#SBATCH --error=flye_assembly_%j.err
+#SBATCH --partition=Orion
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=64G
+#SBATCH --time=24:00:00
+
+module load flye
+
+# Replace the following with your Flye command and input files
+flye --nano-hq RKTL8P_10_ABB-01.filtered.fastq -o RKTL8P_10_ABB-01/ --threads 16
+
+
 ```
 
 
