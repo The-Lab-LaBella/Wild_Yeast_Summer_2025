@@ -8,8 +8,12 @@ This tutorial will only cover the bioinformatics parts of the analysis. We will 
 
 Along the way you will report results in this spreadsheet: https://docs.google.com/spreadsheets/d/17ScIAdl7iKe4SDxmFpJEvZmdBlQJUDD8eWTuUf0sbvA/edit?usp=sharing 
 
+&nbsp;
+&nbsp;
 
 ## Step 1 - Set up your folder
+
+&nbsp;
 
 ### Step 1a - create a new folder to work in 
 
@@ -19,6 +23,7 @@ In either your home or scratch directory create a new folder with your genomeID.
 
 Then move into that directory using `cd`
 
+&nbsp;
 
 ### Step 1b - copy the fastq files into your directory 
 
@@ -30,9 +35,13 @@ If you do not, let Dr. LaBella know and she will get you the files.
 cp /projects/labella_lab/wild_yeast/summer_25_results/RKTLP_1_AB-01.fastq.gz .
 ```
 
+&nbsp;
+
 ## Step 2 - Filter the sequencing reads
 
 Not all sequencing reads will be of the same quality. We want to trim or remove sequences that are low quality. To do this we will use https://github.com/OpenGene/fastplong 
+
+&nbsp;
 
 ### Step 2a - Install fastplong 
 
@@ -54,6 +63,8 @@ conda install -c bioconda fastplong
 #when it asks you if you want to proceed type y and hit enter
 ```
 
+&nbsp;
+
 ### Step 2b - Filter your sequencing reads
 
 To filter the reads use this command
@@ -69,6 +80,7 @@ Download the html file and take a look at it. Report on the spreadsheet your
 - Total Reads
 - Median Lenght (in Kilo bases (K))
 
+&nbsp;
 
 ### Step 2c - Deactivate your environment
 
@@ -78,9 +90,14 @@ We don't need to use fastplong anymore so deactivate the environment using the c
 conda deactivate fastplong
 ```
 
+&nbsp;
+&nbsp;
+
 ## Step 3 - Assemble reads into the genome
 
 We will use the assembler flye to assemble the nanopore genome https://github.com/mikolmogorov/Flye 
+
+&nbsp;
 
 ### Step 3a - Load Flye on the cluster
 
@@ -90,6 +107,8 @@ Flye is available on the HPC so we will load it first
 module load flye
 ```
 
+&nbsp;
+
 ### Step 3b - Uncompress the fastq files
 
 Flye expects uncompressed files so you will need to uncompress the gz file generated above
@@ -98,11 +117,13 @@ Flye expects uncompressed files so you will need to uncompress the gz file gener
 gunzip RKTL8P_10_ABB-01.fastq.filtered.gz
 ```
 
+&nbsp;
+
 ### Step 3c - Run Flye using the high quality nanopore settings
 
 The genome assembly will take more resources than we should use on the head node of the cluster.
 
-Therefore we are going to submit a slurm job to the cluster.
+Therefore we are going to submit a slurm job to the cluster. This should take less than an hour to complete
 
 You will copy the slurm file `flye_assembly.slurm` from the project space. 
 
@@ -122,7 +143,7 @@ You will then need to change the name of the sequence in the file. You can see t
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=64G
-#SBATCH --time=24:00:00
+#SBATCH --time=2:00:00
 
 module load flye
 
@@ -132,6 +153,12 @@ flye --nano-hq RKTL8P_10_ABB-01.filtered.fastq -o RKTL8P_10_ABB-01/ --threads 16
 
 ```
 
+&nbsp;
 
+### Step 3d - Refine assembly with Medaka
+
+We will further refine our assembly using Medaka: https://github.com/nanoporetech/medaka
+
+Again we will run this using a slurm script 
 
 
