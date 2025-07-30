@@ -181,6 +181,7 @@ medaka_consensus -i RKTL8P_10_ABB-01.filtered.fastq -d RKTL8P_10_ABB-01/assembly
 ```
 
 &nbsp;
+&nbsp;
 
 ## Step 4 - Analyze your final genome
 
@@ -192,6 +193,8 @@ We want to rename the genome to it's proper name
 
 ```cp RKTL8P_10_ABB-01/consensus.fasta ABB_052825_01_A.fasta```
 
+&nbsp;
+
 ### Step 4b - Analyze your genome quality 
 
 ```
@@ -200,9 +203,20 @@ module purge
 
 #load QUAST
 module load quast
+
+#run quast and output the results to the directory quast_results
+quast -o quast_results ABB_052825_01_A.fasta
 ```
 
+&nbsp;
 
+### Step 4c - Report your results
+
+Look at your results in the quast_results folder 
+- Number (#) of Contigs
+- Total Length
+- N50
+- GC%
 
 # Set up Funannotate
 
