@@ -58,7 +58,7 @@ conda create --name fastplong
 conda activate fastplong
 
 #install fastplong in your environment
-conda install -c bioconda fastplong
+conda install bioconda::fastplong
 
 #when it asks you if you want to proceed type y and hit enter
 ```
