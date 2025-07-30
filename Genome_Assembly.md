@@ -338,3 +338,25 @@ Go to blastn and see what species you have! https://blast.ncbi.nlm.nih.gov/Blast
 
 Report your species in the table 
 
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+# BUSCO 
+
+BUSCO is a way to assess genome completeness 
+
+Read more here: https://www.numberanalytics.com/blog/ultimate-guide-busco-genome-assembly-annotation
+
+## Step 1 - Run BUSCO
+
+```
+module purge
+module load busco
+mkdir ~/augustus_config
+export AUGUSTUS_CONFIG_PATH=~/augustus_config/
+busco -i ABB_052825_01_A.masked.fasta -o ABB_052825_01_A.busco --out_path busco -m geno -l saccharomycetes_odb10
+```
+
+
