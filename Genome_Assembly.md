@@ -208,7 +208,7 @@ module load quast
 quast -o quast_results ABB_052825_01_A.fasta
 ```
 
-&nbsp;
+v
 
 ### Step 4c - Report your results
 
@@ -218,13 +218,86 @@ Look at your results in the quast_results folder
 - N50
 - GC%
 
-# Set up Funannotate
+&nbsp;
+&nbsp;
+&nbsp;
+
+# Genome Annotation
+
+Now we need to find genes in the genome! This process takes a long time, so it likely won't finish in one day. 
+
+&nbsp;
+
+## Step 1 -  Set up Funannotate
 
 ```
-module load anaconda
+module load anaconda3
 conda create -n funannotate "python>=3.6,<3.9" funannotate
 conda activate funannotate
 conda install chardet
 export FUNANNOTATE_DB=/projects/labella_lab/funannotate_db
 ```
 
+**IMPORTANT**
+
+Every time you want to run funnanotate after installation you will need to execute the following commands
+
+```
+module load anaconda3
+conda activate funannotate
+export FUNANNOTATE_DB=/projects/labella_lab/funannotate_db
+```
+
+&nbsp;
+
+## Step 2 - Preparing our assembly
+
+We will prepare our assembly following these instructions: https://funannotate.readthedocs.io/en/latest/prepare.html#prepare
+
+### Clean the genome
+
+```
+funannotate clean --input ABB_052825_01_A.fasta --out ABB_052825_01_A.clean.fasta
+```
+
+### Sort and rename FASTA headers
+
+We will also remove any contigs less than 500bp
+
+```
+funannotate sort --minlen 500 --input ABB_052825_01_A.clean.fasta --out ABB_052825_01_A.clean.sorted.fasta
+```
+
+### Repeatmask our genome
+
+```
+funannotate mask --input ABB_052825_01_A.clean.sorted.fasta --out ABB_052825_01_A.masked.fasta
+```
+
+Take a look at the terminal and report the **masked repeats**
+
+### Run the genome annotation!
+
+Copy over the `funannotate.slurm` file from the project space, edit it, and then submit!
+
+```
+#!/bin/bash
+#SBATCH --job-name=funannotate
+#SBATCH --output=funannotate_%j.out
+#SBATCH --error=funannotate_%j.err
+#SBATCH --partition=Orion
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --time=12:00:00
+
+module purge
+module load genemark
+module load anaconda3
+conda activate funannotate
+export FUNANNOTATE_DB=/projects/labella_lab/funannotate_db
+
+funannotate predict -i ABB_052825_01_A.masked.fasta -o annotation -s "ABB_052825_01_A" --cpus 4
+
+```
