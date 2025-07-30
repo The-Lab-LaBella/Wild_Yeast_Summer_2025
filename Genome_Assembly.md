@@ -145,6 +145,7 @@ You will then need to change the name of the sequence in the file. You can see t
 #SBATCH --mem=64G
 #SBATCH --time=2:00:00
 
+module purge
 module load flye
 
 # Replace the following with your Flye command and input files
