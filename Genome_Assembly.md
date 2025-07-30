@@ -1,6 +1,6 @@
 # Genome Assembly
 
-This tutorial will walk you through how to assemble the Nanopore genomes sequenced by Plasmidsaurus 
+This tutorial will walk you through how to assemble the Nanopore genomes sequenced by Plasmidsaurus.
 
 If you want to learn more about how Nanopore sequencing works there are lots of informative videos here: https://nanoporetech.com/platform/technology 
 
