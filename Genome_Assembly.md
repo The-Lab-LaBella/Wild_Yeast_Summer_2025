@@ -174,6 +174,7 @@ Again we will run this using a slurm script - this should take less than 30 minu
 #SBATCH --mem=32G
 #SBATCH --time=4:00:00
 
+module purge
 module load artic
 
 # Replace the following with your medaka command and input files
