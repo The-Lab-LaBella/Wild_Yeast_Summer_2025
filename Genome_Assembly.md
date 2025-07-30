@@ -162,6 +162,14 @@ We will further refine our assembly using Medaka: https://github.com/nanoporetec
 
 Again we will run this using a slurm script - this should take less than 30 minutes
 
+To install medaka from conda follow this
+
+```
+conda create -n medaka
+conda activate medaka
+conda install bioconda::medaka
+```
+
 ```
 #!/bin/bash
 #SBATCH --job-name=medaka_assembly
