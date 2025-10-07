@@ -237,29 +237,7 @@ Now we need to find genes in the genome! This process takes a long time, so it l
 
 &nbsp;
 
-## Step 1 -  Set up Funannotate
-
-```
-module load anaconda3
-conda create -n funannotate "python>=3.6,<3.9" funannotate
-conda activate funannotate
-conda install chardet
-export FUNANNOTATE_DB=/projects/labella_lab/funannotate_db
-```
-
-**IMPORTANT**
-
-Every time you want to run funnanotate after installation you will need to execute the following commands
-
-```
-module load anaconda3
-conda activate funannotate
-export FUNANNOTATE_DB=/projects/labella_lab/funannotate_db
-```
-
-&nbsp;
-
-## Step 2 - Preparing our assembly
+## Step 1 - Preparing our assembly
 
 We will prepare our assembly following these instructions: https://funannotate.readthedocs.io/en/latest/prepare.html#prepare
 
@@ -353,7 +331,7 @@ Report your species in the table
 &nbsp;
 
 
-# BUSCO 
+# BUSCO Analysis
 
 BUSCO is a way to assess genome completeness 
 
